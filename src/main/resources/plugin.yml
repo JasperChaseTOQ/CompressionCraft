@@ -1,5 +1,5 @@
 ## CHANGE this to the name of your plugin.
-name: CondensationCraft
+name: CompressionCraft
 
 ## CHANGE this to your username.
 author: jasperchasetoq
@@ -8,7 +8,7 @@ author: jasperchasetoq
 description: A generic Slimefun4-Addon
 
 ## CHANGE this to the path of the class that extends JavaPlugin.
-main: me.jasperchasetoq.condensationcraft.CondensationCraft
+main: me.jasperchasetoq.compressioncraft.CompressionCraft
 
 ## You can change this to link to your website or repository. You can also remove this line if you want to.
 website: https://github.com/Slimefun/Addon-Template

@@ -4,8 +4,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.jasperchasetoq</groupId>
-    <artifactId>CondensationCraft</artifactId>
-    <version>1.0.0</version>
+    <artifactId>CompressionCraft</artifactId>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -65,6 +65,11 @@
                     <artifactId>dough-api</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>3.0.2</version>
         </dependency>
     </dependencies>
 </project>
