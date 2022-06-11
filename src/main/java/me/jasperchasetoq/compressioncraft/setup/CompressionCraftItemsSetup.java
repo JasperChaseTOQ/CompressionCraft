@@ -7,6 +7,7 @@ import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcCompressor;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcDecompressor;
+import me.jasperchasetoq.compressioncraft.implementation.machines.CcElectricSfCompressor;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -31,7 +32,12 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
-
+        new CcElectricSfCompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_ELECTRIC_SF_COMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        null , SlimefunItems.CARBONADO_EDGED_CAPACITOR, null,
+                        SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.ELECTRIC_PRESS, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.CARBON_PRESS, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON_PRESS,
+                }).register(plugin);
         //Compressed Materials
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
@@ -61,7 +67,7 @@ public class CompressionCraftItemsSetup {
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_LAZULI_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);

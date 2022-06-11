@@ -46,7 +46,16 @@ public class CompressionCraftItems {
             LoreBuilder.speed(1),
             LoreBuilder.powerPerSecond(25)
     );
-
+    public static final SlimefunItemStack CC_ELECTRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELECTRIC_SF_COMPRESSOR",
+            Material.PISTON,
+            "&dElectric Slimefun Compressor",
+            "",
+            "&fCompresses items",
+            "",
+            LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
+            LoreBuilder.speed(1),
+            LoreBuilder.powerPerSecond(150)
+            );
     //blocks
 
     public static final SlimefunItemStack CC_COBBLESTONE_1 = new SlimefunItemStack("CC_COBBLESTONE_1", Material.COBBLESTONE, "&dCompressed Cobblestone", "", "&f8 Cobblestone", "");
@@ -58,7 +67,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_COAL_BLOCK_1 = new SlimefunItemStack("CC_COAL_BLOCK_1", Material.COAL_BLOCK, "&dCompressed Coal Block", "", "&f8 Coal Block", "");
     public static final SlimefunItemStack CC_IRON_NUGGET_1 = new SlimefunItemStack("CC_IRON_NUGGET_1", Material.IRON_NUGGET, "&dCompressed Iron Nugget", "", "&f8 Iron Nugget", "");
     public static final SlimefunItemStack CC_IRON_INGOT_1 = new SlimefunItemStack("CC_IRON_INGOT_1", Material.IRON_INGOT, "&dCompressed Iron Ingot", "", "&f8 Iron Ingot", "");
-    public static final SlimefunItemStack CC_IRON_BLOCk_1 = new SlimefunItemStack("CC_IRON_BLOCk_1", Material.IRON_BLOCK, "&dCompressed Iron Block", "", "&f8 Iron Block", "");
+    public static final SlimefunItemStack CC_IRON_BLOCk_1 = new SlimefunItemStack("CC_IRON_BLOCK_1", Material.IRON_BLOCK, "&dCompressed Iron Block", "", "&f8 Iron Block", "");
     public static final SlimefunItemStack CC_GOLD_NUGGET_1 = new SlimefunItemStack("CC_GOLD_NUGGET_1", Material.GOLD_NUGGET, "&dCompressed Gold Nugget", "", "&f8 Gold Nugget", "");
     public static final SlimefunItemStack CC_GOLD_INGOT_1 = new SlimefunItemStack("CC_GOLD_INGOT_1", Material.GOLD_INGOT, "&dCompressed Gold Ingot", "", "&f8 Gold Ingot", "");
     public static final SlimefunItemStack CC_GOLD_BLOCK_1 = new SlimefunItemStack("CC_GOLD_BLOCK_1", Material.GOLD_BLOCK, "&dCompressed Gold Block", "", "&f8 Gold Block", "");
