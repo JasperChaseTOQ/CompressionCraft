@@ -46,7 +46,12 @@ public class CompressionCraftItems {
             LoreBuilder.speed(1),
             LoreBuilder.powerPerSecond(25)
     );
-
+    public static final SlimefunItemStack CC_ELETRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELETRIC_SF_COMPRESSOR",
+            Material.PISTON,
+            "&dCompressor",
+            "",
+            "&fCompresses items",
+            "",
     //blocks
 
     public static final SlimefunItemStack CC_COBBLESTONE_1 = new SlimefunItemStack("CC_COBBLESTONE_1", Material.COBBLESTONE, "&dCompressed Cobblestone", "", "&f8 Cobblestone", "");

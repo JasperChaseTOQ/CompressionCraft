@@ -31,7 +31,12 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
-
+        new CcDecompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_ELETRIC_SF_COMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        null , SlimefunItems.CARBONADO_EDGED_CAPACITOR, null,
+                        SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.ELECTRIC_PRESS, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.CARBON_PRESS, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON_PRESS,
+                }).register(plugin);
         //Compressed Materials
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
