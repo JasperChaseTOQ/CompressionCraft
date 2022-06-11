@@ -7,6 +7,7 @@ import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcCompressor;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcDecompressor;
+import me.jasperchasetoq.compressioncraft.implementation.machines.CcElectricSfCompressor;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -31,7 +32,7 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
-        new CcDecompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_ELETRIC_SF_COMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcElectricSfCompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_ELECTRIC_SF_COMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         null , SlimefunItems.CARBONADO_EDGED_CAPACITOR, null,
                         SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.ELECTRIC_PRESS, SlimefunItems.ELECTRIC_MOTOR,

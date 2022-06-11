@@ -46,15 +46,15 @@ public class CompressionCraftItems {
             LoreBuilder.speed(1),
             LoreBuilder.powerPerSecond(25)
     );
-    public static final SlimefunItemStack CC_ELETRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELETRIC_SF_COMPRESSOR",
+    public static final SlimefunItemStack CC_ELECTRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELECTRIC_SF_COMPRESSOR",
             Material.PISTON,
-            "&dCompressor",
+            "&dElectric Slimefun Compressor",
             "",
             "&fCompresses items",
             "",
             LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
             LoreBuilder.speed(1),
-            LoreBuilder.powerPerSecond(25)
+            LoreBuilder.powerPerSecond(150)
             );
     //blocks
 
