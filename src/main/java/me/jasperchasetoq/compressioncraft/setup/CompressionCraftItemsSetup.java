@@ -61,7 +61,7 @@ public class CompressionCraftItemsSetup {
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_LAZULI_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
