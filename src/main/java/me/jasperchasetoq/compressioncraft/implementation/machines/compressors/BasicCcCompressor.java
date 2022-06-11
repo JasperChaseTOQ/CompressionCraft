@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines;
+package me.jasperchasetoq.compressioncraft.implementation.machines.compressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CcCompressor extends AContainer implements RecipeDisplayItem {
+public class BasicCcCompressor extends AContainer implements RecipeDisplayItem {
 
 
- public CcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+ public BasicCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
             super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
