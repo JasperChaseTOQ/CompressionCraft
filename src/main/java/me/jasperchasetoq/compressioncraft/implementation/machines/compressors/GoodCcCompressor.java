@@ -71,7 +71,7 @@ public class GoodCcCompressor extends AContainer implements RecipeDisplayItem {
 
     @Override
     public String getInventoryTitle() {
-        return "&cCompressor";
+        return "&2Good CC Compressor";
     }
 
     @Override

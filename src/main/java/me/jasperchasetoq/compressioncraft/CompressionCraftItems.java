@@ -25,88 +25,16 @@ public class CompressionCraftItems {
             new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
 
 
-    //machines
-    public static final SlimefunItemStack CC_COMPRESSOR_1 = new SlimefunItemStack("CC_COMPRESSOR",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.BASIC, MachineType.MACHINE),
-            LoreBuilder.speed(1),
-            LoreBuilder.powerPerSecond(25)
-    );
-    public static final SlimefunItemStack CC_COMPRESSOR_2 = new SlimefunItemStack("CC_COMPRESSOR_2",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.AVERAGE, MachineType.MACHINE),
-            LoreBuilder.speed(2),
-            LoreBuilder.powerPerSecond(50)
-    );
-    public static final SlimefunItemStack CC_COMPRESSOR_3 = new SlimefunItemStack("CC_COMPRESSOR_3",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
-            LoreBuilder.speed(3),
-            LoreBuilder.powerPerSecond(75)
-    );
-    public static final SlimefunItemStack CC_COMPRESSOR_4 = new SlimefunItemStack("CC_COMPRESSOR_4",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.GOOD, MachineType.MACHINE),
-            LoreBuilder.speed(4),
-            LoreBuilder.powerPerSecond(100)
-    );
-    public static final SlimefunItemStack CC_COMPRESSOR_5 = new SlimefunItemStack("CC_COMPRESSOR_5",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
-            LoreBuilder.speed(5),
-            LoreBuilder.powerPerSecond(125)
-    );
-    public static final SlimefunItemStack CC_COMPRESSOR_6 = new SlimefunItemStack("CC_COMPRESSOR_6",
-            Material.PISTON,
-            "&dCompressor",
-            "",
-            "&fCompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-            LoreBuilder.speed(6),
-            LoreBuilder.powerPerSecond(150)
-    );
-
-    public static final SlimefunItemStack CC_DECOMPRESSOR = new SlimefunItemStack("CC_DECOMPRESSOR",
-            Material.PISTON,
-            "&dDecompressor",
-            "",
-            "&fDecompresses blocks",
-            "",
-            LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
-            LoreBuilder.speed(1),
-            LoreBuilder.powerPerSecond(25)
-    );
-    public static final SlimefunItemStack CC_ELECTRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELECTRIC_SF_COMPRESSOR",
-            Material.PISTON,
-            "&dElectric Slimefun Compressor",
-            "",
-            "&fCompresses items",
-            "",
-            LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
-            LoreBuilder.speed(1),
-            LoreBuilder.powerPerSecond(150)
-            );
+    //machines Compressors
+    public static final SlimefunItemStack CC_COMPRESSOR_1 = new SlimefunItemStack("CC_COMPRESSOR_1", Material.PISTON, "&eBasic CC Compressor", "&eCompresses blocks", LoreBuilder.machine(MachineTier.BASIC, MachineType.MACHINE), LoreBuilder.speed(1), LoreBuilder.powerPerSecond(50));
+    public static final SlimefunItemStack CC_COMPRESSOR_2 = new SlimefunItemStack("CC_COMPRESSOR_2", Material.PISTON, "&6Average CC Compressor", "&6Compresses blocks", LoreBuilder.machine(MachineTier.AVERAGE, MachineType.MACHINE), LoreBuilder.speed(2), LoreBuilder.powerPerSecond(100));
+    public static final SlimefunItemStack CC_COMPRESSOR_3 = new SlimefunItemStack("CC_COMPRESSOR_3", Material.PISTON, "&aMedium CC Compressor", "&aCompresses blocks",LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), LoreBuilder.speed(3), LoreBuilder.powerPerSecond(150));
+    public static final SlimefunItemStack CC_COMPRESSOR_4 = new SlimefunItemStack("CC_COMPRESSOR_4", Material.PISTON, "&2Good CC Compressor", "&2Compresses blocks", LoreBuilder.machine(MachineTier.GOOD, MachineType.MACHINE), LoreBuilder.speed(4), LoreBuilder.powerPerSecond(200));
+    public static final SlimefunItemStack CC_COMPRESSOR_5 = new SlimefunItemStack("CC_COMPRESSOR_5", Material.PISTON, "&6Advanced CC Compressor", "&6Compresses blocks", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), LoreBuilder.speed(5), LoreBuilder.powerPerSecond(250));
+    public static final SlimefunItemStack CC_COMPRESSOR_6 = new SlimefunItemStack("CC_COMPRESSOR_6", Material.PISTON, "&4End-Game CC Compressor", "&4Compresses blocks", LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(6), LoreBuilder.powerPerSecond(300));
+    //Machines Decompressors
+    public static final SlimefunItemStack CC_DECOMPRESSOR = new SlimefunItemStack("CC_DECOMPRESSOR", Material.PISTON, "&dDecompressor", "&fDecompresses blocks", LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), LoreBuilder.speed(1), LoreBuilder.powerPerSecond(25));
+    public static final SlimefunItemStack CC_ELECTRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELECTRIC_SF_COMPRESSOR", Material.PISTON, "&dElectric Slimefun Compressor", "&fCompresses items", LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), LoreBuilder.speed(1), LoreBuilder.powerPerSecond(150));
     //blocks
 
     public static final SlimefunItemStack CC_COBBLESTONE_1 = new SlimefunItemStack("CC_COBBLESTONE_1", Material.COBBLESTONE, "&dCompressed Cobblestone", "", "&f8 Cobblestone", "");
