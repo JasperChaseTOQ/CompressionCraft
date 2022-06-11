@@ -7,6 +7,7 @@ import me.jasperchasetoq.compressioncraft.setup.CompressionCraftItemsSetup;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import javax.annotation.Nonnull;
+import java.io.File;
 
 public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
 
@@ -17,6 +18,13 @@ public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
         Config cfg = new Config(this);
 
         CompressionCraftItemsSetup.setup(this);
+        if (!new File(getDataFolder(), "config.yml").exists()) {
+            saveDefaultConfig();
+        }
+
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
+            new GitHubBuildsUpdater(this, getFile(), "JasperChaseTOQ/CompressionCraft/master").start();
+        }
     }
     @Override
     public void onDisable() {
