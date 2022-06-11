@@ -76,7 +76,7 @@ public class BasicCcCompressor extends AContainer implements RecipeDisplayItem {
 
         @Override
         public String getMachineIdentifier() {
-            return "CC_COMPRESSOR";
+            return "CC_COMPRESSOR_1";
         }
 
         @Override
