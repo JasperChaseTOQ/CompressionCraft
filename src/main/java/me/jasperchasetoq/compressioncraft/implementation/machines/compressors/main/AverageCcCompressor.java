@@ -1,5 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.compressors;
-
+package me.jasperchasetoq.compressioncraft.implementation.machines.compressors.main;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -20,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem {
+public class AverageCcCompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public EndgameCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public AverageCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -38,19 +37,19 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.COAL, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_1});
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_BLOCK_1});
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_NUGGET_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.IRON_INGOT, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_INGOT_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.IRON_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_BLOCk_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_NUGGET, 8)}, new ItemStack[]{CompressionCraftItems.CC_GOLD_NUGGET_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_INGOT, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_INGOT_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_BLOCK_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.REDSTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.REDSTONE_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_BLOCK_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.LAPIS_LAZULI, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_LAZULI_1});
-        registerRecipe(1, new ItemStack[] {new ItemStack(Material.LAPIS_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_BLOCK_1});
-        registerRecipe(2, new ItemStack[] {new ItemStack(Material.DIAMOND, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_1});
-        registerRecipe(2, new ItemStack[] {new ItemStack(Material.DIAMOND_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_BLOCK_1});
-        registerRecipe(3, new ItemStack[] {new ItemStack(Material.EMERALD, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_1});
-        registerRecipe(3, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_BLOCK_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.IRON_INGOT, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_INGOT_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.IRON_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_BLOCk_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.GOLD_NUGGET, 8)}, new ItemStack[]{CompressionCraftItems.CC_GOLD_NUGGET_1});
+        registerRecipe(3, new ItemStack[] {new ItemStack(Material.GOLD_INGOT, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_INGOT_1});
+        registerRecipe(3, new ItemStack[] {new ItemStack(Material.GOLD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_BLOCK_1});
+        registerRecipe(4, new ItemStack[] {new ItemStack(Material.REDSTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_1});
+        registerRecipe(4, new ItemStack[] {new ItemStack(Material.REDSTONE_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_BLOCK_1});
+        registerRecipe(5, new ItemStack[] {new ItemStack(Material.LAPIS_LAZULI, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_LAZULI_1});
+        registerRecipe(5, new ItemStack[] {new ItemStack(Material.LAPIS_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_BLOCK_1});
+        registerRecipe(6, new ItemStack[] {new ItemStack(Material.DIAMOND, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_1});
+        registerRecipe(6, new ItemStack[] {new ItemStack(Material.DIAMOND_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_BLOCK_1});
+        registerRecipe(7, new ItemStack[] {new ItemStack(Material.EMERALD, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_1});
+        registerRecipe(7, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_BLOCK_1});
     }
 
     @Override
@@ -73,23 +72,23 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
     @Override
     public String getInventoryTitle() {
 
-        return "&4End-Game CC Compressor";
+        return "&6Average CC Compressor";
 
     }
 
     @Override
     public String getMachineIdentifier() {
-        return "CC_COMPRESSOR_6";
+        return "CC_COMPRESSOR_2";
     }
 
     @Override
     public int getCapacity() {
-        return 1500;
+        return 500;
     }
 
     @Override
     public int getEnergyConsumption() {
-        return 150;
+        return 100;
     }
 
     @Override
@@ -114,7 +113,5 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
     }
 
 }
-
-
 
 

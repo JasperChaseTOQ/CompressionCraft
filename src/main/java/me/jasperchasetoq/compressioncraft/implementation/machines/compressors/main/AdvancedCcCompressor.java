@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.compressors;
+package me.jasperchasetoq.compressioncraft.implementation.machines.compressors.main;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GoodCcCompressor extends AContainer implements RecipeDisplayItem {
+public class AdvancedCcCompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public GoodCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public AdvancedCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -42,14 +42,14 @@ public class GoodCcCompressor extends AContainer implements RecipeDisplayItem {
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_NUGGET, 8)}, new ItemStack[]{CompressionCraftItems.CC_GOLD_NUGGET_1});
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_INGOT, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_INGOT_1});
         registerRecipe(1, new ItemStack[] {new ItemStack(Material.GOLD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_GOLD_BLOCK_1});
-        registerRecipe(2, new ItemStack[] {new ItemStack(Material.REDSTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_1});
-        registerRecipe(2, new ItemStack[] {new ItemStack(Material.REDSTONE_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_BLOCK_1});
-        registerRecipe(3, new ItemStack[] {new ItemStack(Material.LAPIS_LAZULI, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_LAZULI_1});
-        registerRecipe(3, new ItemStack[] {new ItemStack(Material.LAPIS_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_BLOCK_1});
-        registerRecipe(4, new ItemStack[] {new ItemStack(Material.DIAMOND, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_1});
-        registerRecipe(4, new ItemStack[] {new ItemStack(Material.DIAMOND_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_BLOCK_1});
-        registerRecipe(5, new ItemStack[] {new ItemStack(Material.EMERALD, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_1});
-        registerRecipe(5, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_BLOCK_1});
+        registerRecipe(1, new ItemStack[] {new ItemStack(Material.REDSTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_1});
+        registerRecipe(1, new ItemStack[] {new ItemStack(Material.REDSTONE_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_REDSTONE_BLOCK_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.LAPIS_LAZULI, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_LAZULI_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.LAPIS_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_LAPIS_BLOCK_1});
+        registerRecipe(3, new ItemStack[] {new ItemStack(Material.DIAMOND, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_1});
+        registerRecipe(3, new ItemStack[] {new ItemStack(Material.DIAMOND_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIAMOND_BLOCK_1});
+        registerRecipe(4, new ItemStack[] {new ItemStack(Material.EMERALD, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_1});
+        registerRecipe(4, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_EMERALD_BLOCK_1});
     }
 
     @Override
@@ -72,23 +72,23 @@ public class GoodCcCompressor extends AContainer implements RecipeDisplayItem {
     @Override
     public String getInventoryTitle() {
 
-        return "&2Good CC Compressor";
+        return "&6Advanced CC Compressor";
 
     }
 
     @Override
     public String getMachineIdentifier() {
-        return "CC_COMPRESSOR_4";
+        return "CC_COMPRESSOR_5";
     }
 
     @Override
     public int getCapacity() {
-        return 1000;
+        return 1250;
     }
 
     @Override
     public int getEnergyConsumption() {
-        return 100;
+        return 125;
     }
 
     @Override
