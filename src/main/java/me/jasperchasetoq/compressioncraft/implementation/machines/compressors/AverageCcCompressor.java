@@ -71,7 +71,9 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
 
     @Override
     public String getInventoryTitle() {
+
         return "&6Average CC Compressor";
+
     }
 
     @Override

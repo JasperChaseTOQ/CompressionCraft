@@ -71,7 +71,9 @@ public class AdvancedCcCompressor extends AContainer implements RecipeDisplayIte
 
     @Override
     public String getInventoryTitle() {
+
         return "&6Advanced CC Compressor";
+
     }
 
     @Override

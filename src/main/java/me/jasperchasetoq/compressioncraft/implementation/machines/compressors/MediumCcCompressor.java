@@ -71,7 +71,9 @@ public class MediumCcCompressor extends AContainer implements RecipeDisplayItem 
 
     @Override
     public String getInventoryTitle() {
+
         return "&aMedium CC Compressor";
+
     }
 
     @Override
