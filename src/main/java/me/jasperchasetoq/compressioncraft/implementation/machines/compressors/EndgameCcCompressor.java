@@ -72,7 +72,9 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
 
     @Override
     public String getInventoryTitle() {
-        return "&cCompressor";
+
+        return "&4End-Game CC Compressor";
+
     }
 
     @Override

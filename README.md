@@ -10,4 +10,4 @@ a decompressor
 an eletric version of the basic machine slimefun compressor (only core items no addon items)
 ##Compressed Materials
 adds compressed versions of some items for more coveniant storage and player trading (can be decompressed with the decompressor)
-..
+

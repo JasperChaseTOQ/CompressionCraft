@@ -71,7 +71,9 @@ public class BasicCcCompressor extends AContainer implements RecipeDisplayItem {
 
         @Override
         public String getInventoryTitle() {
-            return "&cCompressor";
+
+            return "&eBasic CC Compressor";
+
         }
 
         @Override
