@@ -77,47 +77,47 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.CARBON_PRESS, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON_PRESS,
                 }).register(plugin);
         //Compressed Materials
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_STONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_STONE_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_FLINT_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_FLINT_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GRAVEL_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GRAVEL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_CLAY_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_CLAY_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COAL_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COAL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COAL_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_COAL_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_NUGGET_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_NUGGET_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_INGOT_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_INGOT_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_BLOCk_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_IRON_BLOCk_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_NUGGET_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_NUGGET_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_INGOT_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_INGOT_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_GOLD_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_REDSTONE_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_LAZULI_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_LAZULI_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_LAPIS_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_DIAMOND_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_DIAMOND_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_DIAMOND_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_DIAMOND_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_EMERALD_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_EMERALD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_EMERALD_BLOCK_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(CompressionCraftItems.CC_MATERIALS, CompressionCraftItems.CC_EMERALD_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 }
 }
