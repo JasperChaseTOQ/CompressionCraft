@@ -5,9 +5,9 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.*;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcDecompressor;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcElectricSfCompressor;
+import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.main.*;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
