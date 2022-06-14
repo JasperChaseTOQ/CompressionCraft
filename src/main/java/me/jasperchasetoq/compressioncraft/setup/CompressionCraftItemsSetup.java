@@ -34,13 +34,13 @@ public class CompressionCraftItemsSetup {
                 }).register(plugin);
         new MediumCcCompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        SlimefunItems.CARBON_CHUNK, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.CARBON_CHUNK,
+                        SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBON_CHUNK, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON_CHUNK,
                 }).register(plugin);
         new GoodCcCompressor(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.BIG_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
+                        SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.HEATING_COIL, SlimefunItems.SYNTHETIC_DIAMOND,
                 }).register(plugin);
