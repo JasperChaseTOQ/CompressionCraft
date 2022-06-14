@@ -5,7 +5,8 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.implementation.machines.CcDecompressor;
+import me.jasperchasetoq.compressioncraft.implementation.machines.decompressors.CcGemDecompressor;
+import me.jasperchasetoq.compressioncraft.implementation.machines.decompressors.main.*;
 import me.jasperchasetoq.compressioncraft.implementation.machines.CcElectricSfCompressor;
 import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.CcGemCompressor;
 import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.main.*;
@@ -20,6 +21,7 @@ public class CompressionCraftItemsSetup {
 
 
         //machines
+        //compressors
         new BasicCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                     SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
@@ -63,13 +65,51 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
 
-        //machines decompressor
-        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
+        //machines decompressors
+        new BasicCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        SlimefunItems.CARBONADO, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.CARBONADO,
+                        SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.CARBON, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON,
+                }).register(plugin);
+        new AverageCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.COMPRESSED_CARBON, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.COMPRESSED_CARBON,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.COMPRESSED_CARBON, SlimefunItems.HEATING_COIL, SlimefunItems.COMPRESSED_CARBON,
+                }).register(plugin);
+        new MediumCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.CARBON_CHUNK, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON_CHUNK,
+                }).register(plugin);
+        new GoodCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.HEATING_COIL, SlimefunItems.SYNTHETIC_DIAMOND,
+                }).register(plugin);
+        new AdvancedCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.RAW_CARBONADO, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.RAW_CARBONADO,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_4, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.RAW_CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.RAW_CARBONADO,
+                }).register(plugin);
+        new EndgameCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
+        new CcGemDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_GEM_DECOMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_6, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
+                }).register(plugin);
+
+        //misc
         new CcElectricSfCompressor(CompressionCraftItems.CC_MISC, CompressionCraftItems.CC_ELECTRIC_SF_COMPRESSOR, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         null , SlimefunItems.CARBONADO_EDGED_CAPACITOR, null,
@@ -118,6 +158,18 @@ public class CompressionCraftItemsSetup {
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_EMERALD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_EMERALD_BLOCK_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_AMETHYST_SHARD_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_AMETHYST_BLOCK_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_SMALL_AMETHYST_BUD_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_AMETHYST_CLUSTER_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 }
 }
