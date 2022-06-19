@@ -48,7 +48,7 @@ public class CompressionCraftItems {
 
     //misc
     public static final SlimefunItemStack CC_ELECTRIC_SF_COMPRESSOR = new SlimefunItemStack("CC_ELECTRIC_SF_COMPRESSOR", Material.PISTON, "&dElectric Slimefun Compressor", "&fCompresses items", LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), LoreBuilder.speed(1), LoreBuilder.powerPerSecond(150));
-
+    public static final SlimefunItemStack CC_XTREME_CARBON_PRESS = new SlimefunItemStack("CC_XTREME_CARBON_PRESS", Material.COAL_BLOCK, "&4CC Xtreme Carbon Press", "&fExtremely compresses Carbon", LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(10), LoreBuilder.powerPerSecond(500));
   
     //blocks
 
