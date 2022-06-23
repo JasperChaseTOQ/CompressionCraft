@@ -19,15 +19,21 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CcGemCompressor extends AContainer implements RecipeDisplayItem {
+public class AdvancedCcCompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public CcGemCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public AdvancedCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
     @Override
     protected void registerDefaultRecipes() {
+
+        registerRecipe(8, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_1});
+        registerRecipe(8, new ItemStack[] {new ItemStack(Material.STONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_STONE_1});
+        registerRecipe(4, new ItemStack[] {new ItemStack(Material.FLINT, 8)}, new ItemStack[] {CompressionCraftItems.CC_FLINT_1});
+        registerRecipe(8, new ItemStack[] {new ItemStack(Material.GRAVEL, 8)}, new ItemStack[] {CompressionCraftItems.CC_GRAVEL_1});
+        registerRecipe(8, new ItemStack[] {new ItemStack(Material.CLAY, 8)}, new ItemStack[] {CompressionCraftItems.CC_CLAY_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.COAL, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_1});
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_BLOCK_1});
         registerRecipe(4, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_NUGGET_1});
@@ -50,6 +56,7 @@ public class CcGemCompressor extends AContainer implements RecipeDisplayItem {
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1});
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1});
         registerRecipe(12, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)}, new ItemStack[] {CompressionCraftItems.CC_AMETHYST_CLUSTER_1});
+
     }
 
     @Override
@@ -65,18 +72,24 @@ public class CcGemCompressor extends AContainer implements RecipeDisplayItem {
     }
 
     @Override
-    public ItemStack getProgressBar() {return new ItemStack(SlimefunItems.ELECTRIC_PRESS);}
-    @Override public String getInventoryTitle() {return "&4CompressorCraft's Gem Compressor";}
-    @Override
-    public String getMachineIdentifier() {return "CC_GEM_COMPRESSOR";}
-    @Override
-    public int getCapacity() {return 25000;}
-    @Override
-    public int getEnergyConsumption() {return 250;}
-    @Override
-    public int getSpeed() {
-        return 25;
+    public ItemStack getProgressBar() {
+        return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
+    @Override
+    public String getInventoryTitle() {return "&6Advanced CC Compressor";}
+    @Override
+    public String getMachineIdentifier() {
+        return "CC_COMPRESSOR_5";
+    }
+    @Override
+    public int getCapacity() {
+        return 1250;
+    }
+    @Override
+    public int getEnergyConsumption() {
+        return 125;
+    }
+    @Override public int getSpeed() {return 5;}
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {
@@ -95,3 +108,7 @@ public class CcGemCompressor extends AContainer implements RecipeDisplayItem {
     }
 
 }
+
+
+
+
