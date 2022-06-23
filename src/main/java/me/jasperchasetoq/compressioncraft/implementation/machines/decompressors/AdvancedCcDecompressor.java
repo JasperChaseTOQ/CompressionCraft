@@ -19,16 +19,21 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CcGemDecompressor extends AContainer implements RecipeDisplayItem {
+public class AdvancedCcDecompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public CcGemDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public AdvancedCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
     @Override
     protected void registerDefaultRecipes() {
 
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 1)}, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_STONE_1, 1)}, new ItemStack[] {new ItemStack(Material.STONE, 8)});
+        registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_FLINT_1, 1)}, new ItemStack[] {new ItemStack(Material.FLINT, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GRAVEL_1, 1)}, new ItemStack[] {new ItemStack(Material.GRAVEL, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_CLAY_1, 1)}, new ItemStack[] {new ItemStack(Material.CLAY, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_IRON_NUGGET_1, 1)}, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)});
@@ -51,8 +56,6 @@ public class CcGemDecompressor extends AContainer implements RecipeDisplayItem {
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)});
         registerRecipe(12, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_CLUSTER_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)});
-
-
     }
 
     @Override
@@ -68,18 +71,24 @@ public class CcGemDecompressor extends AContainer implements RecipeDisplayItem {
     }
 
     @Override
-    public ItemStack getProgressBar() {return new ItemStack(SlimefunItems.ELECTRIC_PRESS);}
-    @Override public String getInventoryTitle() {return "&4CompressorCraft's Gem Decompressor";}
-    @Override
-    public String getMachineIdentifier() {return "CC_GEM_DECOMPRESSOR";}
-    @Override
-    public int getCapacity() {return 25000;}
-    @Override
-    public int getEnergyConsumption() {return 250;}
-    @Override
-    public int getSpeed() {
-        return 25;
+    public ItemStack getProgressBar() {
+        return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
+    @Override
+    public String getInventoryTitle() {return "&6Advanced CC Decompressor";}
+    @Override
+    public String getMachineIdentifier() {
+        return "CC_DECOMPRESSOR_5";
+    }
+    @Override
+    public int getCapacity() {
+        return 1250;
+    }
+    @Override
+    public int getEnergyConsumption() {
+        return 125;
+    }
+    @Override public int getSpeed() {return 5;}
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.decompressors.main;
+package me.jasperchasetoq.compressioncraft.implementation.machines.decompressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EndgameCcDecompressor extends AContainer implements RecipeDisplayItem {
+public class MediumCcDecompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public EndgameCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public MediumCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -35,14 +35,27 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GRAVEL_1, 1)}, new ItemStack[] {new ItemStack(Material.GRAVEL, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_CLAY_1, 1)}, new ItemStack[] {new ItemStack(Material.CLAY, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_IRON_NUGGET_1, 1)}, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_IRON_INGOT_1, 1)}, new ItemStack[] {new ItemStack(Material.IRON_INGOT, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_IRON_BLOCk_1, 1)}, new ItemStack[] {new ItemStack(Material.IRON_BLOCK, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GOLD_NUGGET_1, 1)}, new ItemStack[] {new ItemStack(Material.GOLD_NUGGET, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GOLD_INGOT_1, 1)}, new ItemStack[] {new ItemStack(Material.GOLD_INGOT, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GOLD_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.GOLD_BLOCK, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_REDSTONE_1, 1)}, new ItemStack[] {new ItemStack(Material.REDSTONE, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_REDSTONE_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.REDSTONE_BLOCK, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_LAPIS_LAZULI_1, 1)}, new ItemStack[] {new ItemStack(Material.LAPIS_LAZULI, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_LAPIS_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.LAPIS_BLOCK, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DIAMOND_1, 1)}, new ItemStack[] {new ItemStack(Material.DIAMOND, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DIAMOND_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.DIAMOND_BLOCK, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_EMERALD_1, 1)}, new ItemStack[] {new ItemStack(Material.EMERALD, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_EMERALD_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)});
+        registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_SHARD_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_SHARD, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_BLOCK, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_SMALL_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.SMALL_AMETHYST_BUD, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)});
+        registerRecipe(12, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_CLUSTER_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)});
 
     }
 
@@ -58,27 +71,26 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
         return displayRecipes;
     }
 
-    @Override
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&4End-Game CC Decompressor";}
+    public String getInventoryTitle() {return "&6Average CC Decompressor";}
     @Override
     public String getMachineIdentifier() {
-        return "CC_DECOMPRESSOR_6";
+        return "CC_DECOMPRESSOR_2";
     }
     @Override
     public int getCapacity() {
-        return 1500;
+        return 500;
     }
     @Override
     public int getEnergyConsumption() {
-        return 150;
+        return 100;
     }
     @Override
     public int getSpeed() {
-        return 6;
+        return 2;
     }
 
     public BlockBreakHandler onBreak() {
