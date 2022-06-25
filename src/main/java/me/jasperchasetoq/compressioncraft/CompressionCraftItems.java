@@ -45,10 +45,22 @@ public class CompressionCraftItems {
     //blocks
 
     public static final SlimefunItemStack CC_COBBLESTONE_1 = new SlimefunItemStack("CC_COBBLESTONE_1", Material.COBBLESTONE, "&dCompressed Cobblestone", "", "&f8 Cobblestone", "");
+    public static final SlimefunItemStack CC_COBBLESTONE_2 = new SlimefunItemStack("CC_COBBLESTONE_2", Material.COBBLESTONE, "&dDouble Compressed Cobblestone", "", "&f64 Cobblestone", "");
+    public static final SlimefunItemStack CC_COBBLESTONE_3 = new SlimefunItemStack("CC_COBBLESTONE_3", Material.COBBLESTONE, "&dTriple Compressed Cobblestone", "", "&f512 Cobblestone", "");
+    public static final SlimefunItemStack CC_COBBLESTONE_4 = new SlimefunItemStack("CC_COBBLESTONE_4", Material.COBBLESTONE, "&dQuadruple Compressed Cobblestone", "", "&f4096 Cobblestone", "");
+    public static final SlimefunItemStack CC_COBBLESTONE_5 = new SlimefunItemStack("CC_COBBLESTONE_5", Material.COBBLESTONE, "&dQuintuple Compressed Cobblestone", "", "&f32768 Cobblestone", "");
+    public static final SlimefunItemStack CC_COBBLESTONE_6 = new SlimefunItemStack("CC_COBBLESTONE_6", Material.COBBLESTONE, "&dSextuple Compressed Cobblestone", "", "&f262144 Cobblestone", "");
     public static final SlimefunItemStack CC_STONE_1 = new SlimefunItemStack("CC_STONE_1", Material.STONE, "&dCompressed Stone", "", "&f8 Stone", "");
+    public static final SlimefunItemStack CC_ANDESITE_1 = new SlimefunItemStack("CC_ANDESITE_1", Material.ANDESITE, "&dCompressed Andesite", "", "&f8 Andesite", "");
+    public static final SlimefunItemStack CC_DIORITE_1 = new SlimefunItemStack("CC_DIORITE_1", Material.DIORITE, "&dCompressed Diorite", "", "&f8 Diorite", "");
+    public static final SlimefunItemStack CC_GRANITE_1 = new SlimefunItemStack("CC_GRANITE_1", Material.GRANITE, "&dCompressed Granite", "", "&f8 Granite", "");
+    public static final SlimefunItemStack CC_COBBLED_DEEPSLATE_1 = new SlimefunItemStack("CC_COBBLED_DEEPSLATE_1", Material.COBBLED_DEEPSLATE, "&dCompressed Cobbled Deepslate", "", "&f8 Cobbled Deepslate", "");
+    public static final SlimefunItemStack CC_DEEPSLATE_1 = new SlimefunItemStack("CC_DEEPSLATE_1", Material.DEEPSLATE, "&dCompressed Deepslate", "", "&f8 Deepslate", "");
     public static final SlimefunItemStack CC_FLINT_1 = new SlimefunItemStack("CC_FLINT_1", Material.FLINT, "&dCompressed Flint", "", "&f8 Flint", "");
     public static final SlimefunItemStack CC_GRAVEL_1 = new SlimefunItemStack("CC_GRAVEL_1", Material.GRAVEL, "&dCompressed Gravel", "", "&f8 Gravel", "");
+    public static final SlimefunItemStack CC_DIRT_1 = new SlimefunItemStack("CC_DIRT_1", Material.DIRT, "&dCompressed Dirt", "", "&f8 Dirt", "");
     public static final SlimefunItemStack CC_CLAY_1 = new SlimefunItemStack("CC_CLAY_1", Material.CLAY, "&dCompressed Clay", "", "&f8 Clay", "");
+    public static final SlimefunItemStack CC_CLAY_BALL_1 = new SlimefunItemStack("CC_CLAY_BALL_1", Material.CLAY_BALL, "&dCompressed Clay Ball", "", "&f8 Clay Ball", "");
     public static final SlimefunItemStack CC_COAL_1 = new SlimefunItemStack("CC_COAL_1", Material.COAL, "&dCompressed Coal", "", "&f8 Coal", "");
     public static final SlimefunItemStack CC_COAL_BLOCK_1 = new SlimefunItemStack("CC_COAL_BLOCK_1", Material.COAL_BLOCK, "&dCompressed Coal Block", "", "&f8 Coal Block", "");
     public static final SlimefunItemStack CC_IRON_NUGGET_1 = new SlimefunItemStack("CC_IRON_NUGGET_1", Material.IRON_NUGGET, "&dCompressed Iron Nugget", "", "&f8 Iron Nugget", "");
@@ -71,4 +83,5 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_MEDIUM_AMETHYST_BUD_1 = new SlimefunItemStack("CC_MEDIUM_AMETHYST_BUD_1", Material.MEDIUM_AMETHYST_BUD, "&dCompressed Medium Amethyst Bud", "", "&f8 Medium Amethyst Bud", "");
     public static final SlimefunItemStack CC_LARGE_AMETHYST_BUD_1 = new SlimefunItemStack("CC_LARGE_AMETHYST_BUD_1", Material.LARGE_AMETHYST_BUD, "&dCompressed Large Amethyst Bud", "", "&f8 Large Amethyst Bud", "");
     public static final SlimefunItemStack CC_AMETHYST_CLUSTER_1 = new SlimefunItemStack("CC_AMETHYST_CLUSTER_1", Material.AMETHYST_CLUSTER, "&dCompressed Amethyst Cluster", "", "&f8 Amethyst Cluster", "");
+
 }

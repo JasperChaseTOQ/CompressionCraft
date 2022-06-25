@@ -30,10 +30,17 @@ public class MediumCcDecompressor extends AContainer implements RecipeDisplayIte
     protected void registerDefaultRecipes() {
 
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 1)}, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_ANDESITE_1, 1)}, new ItemStack[] {new ItemStack(Material.ANDESITE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DIORITE_1, 1)}, new ItemStack[] {new ItemStack(Material.DIORITE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GRANITE_1, 1)}, new ItemStack[] {new ItemStack(Material.GRANITE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLED_DEEPSLATE_1, 1)}, new ItemStack[] {new ItemStack(Material.COBBLED_DEEPSLATE, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DEEPSLATE_1, 1)}, new ItemStack[] {new ItemStack(Material.DEEPSLATE, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_STONE_1, 1)}, new ItemStack[] {new ItemStack(Material.STONE, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_FLINT_1, 1)}, new ItemStack[] {new ItemStack(Material.FLINT, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_GRAVEL_1, 1)}, new ItemStack[] {new ItemStack(Material.GRAVEL, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DIRT_1, 1)}, new ItemStack[] {new ItemStack(Material.DIRT, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_CLAY_1, 1)}, new ItemStack[] {new ItemStack(Material.CLAY, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_CLAY_BALL_1, 1)}, new ItemStack[] {new ItemStack(Material.CLAY_BALL, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COAL_BLOCK_1, 1)}, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_IRON_NUGGET_1, 1)}, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)});
@@ -56,7 +63,10 @@ public class MediumCcDecompressor extends AContainer implements RecipeDisplayIte
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, 1)}, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)});
         registerRecipe(12, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_CLUSTER_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)});
-
+        //Double Compressed
+        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)});
+        //Triple Compressed
+        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)});
     }
 
     @Override
@@ -75,22 +85,22 @@ public class MediumCcDecompressor extends AContainer implements RecipeDisplayIte
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&6Average CC Decompressor";}
+    public String getInventoryTitle() {return "&6Medium CC Decompressor";}
     @Override
     public String getMachineIdentifier() {
-        return "CC_DECOMPRESSOR_2";
+        return "CC_DECOMPRESSOR_3";
     }
     @Override
     public int getCapacity() {
-        return 500;
+        return 750;
     }
     @Override
     public int getEnergyConsumption() {
-        return 100;
+        return 75;
     }
     @Override
     public int getSpeed() {
-        return 2;
+        return 3;
     }
 
     public BlockBreakHandler onBreak() {

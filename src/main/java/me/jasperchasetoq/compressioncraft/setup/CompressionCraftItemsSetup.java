@@ -100,11 +100,25 @@ public class CompressionCraftItemsSetup {
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_STONE_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_ANDESITE_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_DIORITE_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_GRANITE_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLED_DEEPSLATE_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_DEEPSLATE_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_FLINT_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_GRAVEL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_DIRT_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_CLAY_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_CLAY_BALL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COAL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
@@ -149,6 +163,21 @@ public class CompressionCraftItemsSetup {
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_AMETHYST_CLUSTER_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        //Double Compressed
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        //Triple Compressed
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        //Quadruple Compressed
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        //Quintuple Compressed
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        //Sextuple Compressed
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 }
 }
