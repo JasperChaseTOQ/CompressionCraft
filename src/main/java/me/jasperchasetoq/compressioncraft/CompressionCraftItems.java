@@ -83,5 +83,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_MEDIUM_AMETHYST_BUD_1 = new SlimefunItemStack("CC_MEDIUM_AMETHYST_BUD_1", Material.MEDIUM_AMETHYST_BUD, "&dCompressed Medium Amethyst Bud", "", "&f8 Medium Amethyst Bud", "");
     public static final SlimefunItemStack CC_LARGE_AMETHYST_BUD_1 = new SlimefunItemStack("CC_LARGE_AMETHYST_BUD_1", Material.LARGE_AMETHYST_BUD, "&dCompressed Large Amethyst Bud", "", "&f8 Large Amethyst Bud", "");
     public static final SlimefunItemStack CC_AMETHYST_CLUSTER_1 = new SlimefunItemStack("CC_AMETHYST_CLUSTER_1", Material.AMETHYST_CLUSTER, "&dCompressed Amethyst Cluster", "", "&f8 Amethyst Cluster", "");
-
+    //addon info
+    public static final SlimefunItemStack CC_MC_VERSION = new SlimefunItemStack("CC_MC_VERSION", Material.BOOK, "&fMinecraft Version", "", "&fWorks on versions 1.17x-1.19x");
+    public static final SlimefunItemStack CC_SF_BUILD = new SlimefunItemStack("CC_SF_BUILD", Material.BOOK, "&fSlimefun Build", "", "&fCompressionCraft was built on slimefun version: RC-31");
 }
