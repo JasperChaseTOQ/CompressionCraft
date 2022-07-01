@@ -79,7 +79,7 @@ public class CompressionCraftItemsSetup {
         new GoodCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
-                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.HEATING_COIL, SlimefunItems.SYNTHETIC_DIAMOND,
                 }).register(plugin);
         new AdvancedCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
