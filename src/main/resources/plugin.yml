@@ -11,7 +11,7 @@ description: A generic Slimefun4-Addon
 main: me.jasperchasetoq.compressioncraft.CompressionCraft
 
 ## You can change this to link to your website or repository. You can also remove this line if you want to.
-website: https://github.com/Slimefun/Addon-Template
+website: https://github.com/JasperChaseTOQ/CompressionCraft
 
 ## This value is automatically replaced by the version specified in your pom.xml file.
 ## Do not change this.
