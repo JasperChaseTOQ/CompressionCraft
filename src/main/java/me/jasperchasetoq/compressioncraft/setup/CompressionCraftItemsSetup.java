@@ -182,6 +182,8 @@ public class CompressionCraftItemsSetup {
         //addon info
         new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_MC_VERSION, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_JAVA_VERSION, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_SF_BUILD, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 }
