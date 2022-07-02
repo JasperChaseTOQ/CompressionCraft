@@ -1,15 +1,11 @@
-# CompressionCraft
+# CompressionCraft  
 
-Dependencys:Slimefun RC-31
-Minecraft:1.18
+Compressioncraft is a slimefun4 addon that adds compressors and decompressors which can compress and compress items.  
+compressioncraft supports 1.17x-1.19  
+compression craft requires java 16+  
+compression craft uses slimefun RC-32+    
 
-Adds: 2 catgetogies
-##Machines:
-6 tiers of custom compressors  
-a decompressor 
-an eletric version of the basic machine slimefun compressor (only core items no addon items)
-##Compressed Materials  
-adds compressed versions of some items for more coveniant storage and player trading (can be decompressed with the decompressor)
-
-##Download  
-<a href="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master"><img src="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master/badge.svg" alt="Build Status"/></a>
+Builds Page  
+<a href="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master"><img src="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master/badge.svg" alt="Build Status"/></a>  
+Bstats  
+https://bstats.org/plugin/bukkit/CompressionCraft/15648  
