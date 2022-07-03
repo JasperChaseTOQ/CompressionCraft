@@ -40,8 +40,8 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
         registerRecipe(4, new ItemStack[] {new ItemStack(Material.FLINT, 8)}, new ItemStack[] {CompressionCraftItems.CC_FLINT_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.GRAVEL, 8)}, new ItemStack[] {CompressionCraftItems.CC_GRAVEL_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.DIRT, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIRT_1});
+        registerRecipe(2, new ItemStack[] {new ItemStack(Material.CLAY_BALL, 8)}, new ItemStack[] {CompressionCraftItems.CC_CLAY_BALL_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.CLAY, 8)}, new ItemStack[] {CompressionCraftItems.CC_CLAY_1});
-        registerRecipe(2, new ItemStack[] {new ItemStack(Material.CLAY_BALL, 8)}, new ItemStack[] {CompressionCraftItems.CC_CLAY_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.COAL, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_1});
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.CC_COAL_BLOCK_1});
         registerRecipe(4, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)}, new ItemStack[] {CompressionCraftItems.CC_IRON_NUGGET_1});
