@@ -87,5 +87,8 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_MC_VERSION = new SlimefunItemStack("CC_MC_VERSION", Material.BOOK, "&fMinecraft Version", "", "&fWorks on versions 1.17x-1.19x");
     public static final SlimefunItemStack CC_JAVA_VERSION = new SlimefunItemStack("CC_JAVA_VERSION", Material.BOOK, "&fJava Version", "", "&fCompressionCraft requires Java 16+ to work");
     public static final SlimefunItemStack CC_SF_BUILD = new SlimefunItemStack("CC_SF_BUILD", Material.BOOK, "&fSlimefun Build", "", "&fCompressionCraft was built on slimefun version: RC-32");
-
+    public static final SlimefunItemStack CC_VERSION = new SlimefunItemStack("CC_VERSION", Material.BOOK, "&fCompressioncraft Verison",  "&fCompressioncraft Info",
+            "",
+            "&f" + CompressionCraft.getInstance().getName() + " " + CompressionCraft.getInstance().getPluginVersion());
+    //Credit and the source for the CC_VERSION goes to https://github.com/Sfiguz7/TranscEndence/blob/master/src/main/java/me/sfiguz7/transcendence/lists/TEItems.java
 }

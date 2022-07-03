@@ -37,7 +37,6 @@ public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
     public void onDisable() {
         // Logic for disabling the plugin...
     }
-
     @Override
     public String getBugTrackerURL() {
         return "https://github.com/JasperChaseTOQ/CompressionCraft/issues";
@@ -58,5 +57,8 @@ public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
         public static CompressionCraft getInstance() {
             return instance;
         }
+    public static String getVersion() {
+        return instance.getDescription().getVersion();
+    }
     }
 
