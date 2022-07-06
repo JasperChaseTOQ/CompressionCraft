@@ -30,6 +30,8 @@ public class MediumCcCompressor extends AContainer implements RecipeDisplayItem 
     protected void registerDefaultRecipes() {
 
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_1});
+        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_2});
+        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_3});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.STONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_STONE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.ANDESITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_ANDESITE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.DIORITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIORITE_1});
@@ -63,14 +65,6 @@ public class MediumCcCompressor extends AContainer implements RecipeDisplayItem 
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1});
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1});
         registerRecipe(12, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)}, new ItemStack[] {CompressionCraftItems.CC_AMETHYST_CLUSTER_1});
-
-        //Double Compressed
-
-        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_2});
-
-        //Triple Compressed
-
-        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_3});
     }
 
     @Override
