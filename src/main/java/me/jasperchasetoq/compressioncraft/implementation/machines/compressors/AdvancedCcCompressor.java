@@ -30,6 +30,10 @@ public class AdvancedCcCompressor extends AContainer implements RecipeDisplayIte
     protected void registerDefaultRecipes() {
 
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_1});
+        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_2});
+        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_3});
+        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_4});
+        registerRecipe(60, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_4, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_5});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.STONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_STONE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.ANDESITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_ANDESITE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.DIORITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIORITE_1});
@@ -63,22 +67,6 @@ public class AdvancedCcCompressor extends AContainer implements RecipeDisplayIte
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1});
         registerRecipe(16, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1});
         registerRecipe(12, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)}, new ItemStack[] {CompressionCraftItems.CC_AMETHYST_CLUSTER_1});
-
-        //Double Compressed
-
-        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_2});
-
-        //Triple Compressed
-
-        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_3});
-
-        //Quadruple Compressed
-
-        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 8)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_4});
-
-        //Quintuple Compressed
-
-        registerRecipe(60, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_4, 8)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_5});
 
     }
 
