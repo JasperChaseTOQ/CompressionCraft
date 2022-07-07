@@ -7,6 +7,8 @@ import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
 import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.*;
 import me.jasperchasetoq.compressioncraft.implementation.machines.decompressors.*;
+import me.jasperchasetoq.compressioncraft.implementation.machines.misc.LoreRefresher;
+import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -94,7 +96,13 @@ public class CompressionCraftItemsSetup {
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBONADO, SlimefunItems.HEATING_COIL, SlimefunItems.CARBONADO,
                 }).register(plugin);
-
+        //Machines Misc
+        new LoreRefresher(CompressionCraftItems.CC_MACHINES, CompressionCraftItems.CC_LORE_REFRESHER, RecipeType.ENHANCED_CRAFTING_TABLE,
+                new ItemStack[] {
+                        CompressionCraftItems.CC_COBBLESTONE_1, CompressionCraftItems.CC_COBBLESTONE_1, CompressionCraftItems.CC_COBBLESTONE_1,
+                        CompressionCraftItems.CC_COBBLESTONE_1, new ItemStack(Material.LECTERN), CompressionCraftItems.CC_COBBLESTONE_1,
+                        CompressionCraftItems.CC_COBBLESTONE_1, CompressionCraftItems.CC_COBBLESTONE_1, CompressionCraftItems.CC_COBBLESTONE_1,
+                }).register(plugin);
         //Compressed Materials
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
