@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.compressors;
+package me.jasperchasetoq.compressioncraft.items.implementation.machines.compressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AverageCcCompressor extends AContainer implements RecipeDisplayItem {
+public class GoodCcCompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public AverageCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public GoodCcCompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -31,6 +31,8 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
 
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.COBBLESTONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_1});
         registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_2});
+        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_3});
+        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 8)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_4});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.STONE, 8)}, new ItemStack[] {CompressionCraftItems.CC_STONE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.ANDESITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_ANDESITE_1});
         registerRecipe(8, new ItemStack[] {new ItemStack(Material.DIORITE, 8)}, new ItemStack[] {CompressionCraftItems.CC_DIORITE_1});
@@ -84,14 +86,14 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&6Average CC Compressor";}
+    public String getInventoryTitle() {return "&2Good CC Compressor";}
     @Override
     public String getMachineIdentifier() {
-        return "CC_COMPRESSOR_2";
+        return "CC_COMPRESSOR_4";
     }
     @Override
     public int getCapacity() {
-        return 500;
+        return 1000;
     }
     @Override
     public int getEnergyConsumption() {
@@ -99,8 +101,9 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
     }
     @Override
     public int getSpeed() {
-        return 2;
+        return 4;
     }
+
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {
 
@@ -118,5 +121,7 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
     }
 
 }
+
+
 
 

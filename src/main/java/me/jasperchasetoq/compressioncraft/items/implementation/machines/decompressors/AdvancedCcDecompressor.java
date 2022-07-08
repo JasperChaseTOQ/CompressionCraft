@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.decompressors;
+package me.jasperchasetoq.compressioncraft.items.implementation.machines.decompressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;

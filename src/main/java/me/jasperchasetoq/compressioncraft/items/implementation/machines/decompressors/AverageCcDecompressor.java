@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.decompressors;
+package me.jasperchasetoq.compressioncraft.items.implementation.machines.decompressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EndgameCcDecompressor extends AContainer implements RecipeDisplayItem {
+public class AverageCcDecompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public EndgameCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public AverageCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -65,14 +65,6 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
         registerRecipe(12, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_AMETHYST_CLUSTER_1, 1)}, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)});
         //Double Compressed
         registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)});
-        //Triple Compressed
-        registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)});
-        //Quadruple Compressed
-        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_4, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 8)});
-        //Quintuple Compressed
-        registerRecipe(60, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_5, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_4, 8)});
-        //Sextuple Compressed
-        registerRecipe(72, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_6, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_5, 8)});
     }
 
     @Override
@@ -87,27 +79,26 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
         return displayRecipes;
     }
 
-    @Override
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&4End-Game CC Decompressor";}
+    public String getInventoryTitle() {return "&6Average CC Decompressor";}
     @Override
     public String getMachineIdentifier() {
-        return "CC_DECOMPRESSOR_6";
+        return "CC_DECOMPRESSOR_2";
     }
     @Override
     public int getCapacity() {
-        return 1500;
+        return 500;
     }
     @Override
     public int getEnergyConsumption() {
-        return 150;
+        return 100;
     }
     @Override
     public int getSpeed() {
-        return 6;
+        return 2;
     }
 
     public BlockBreakHandler onBreak() {
@@ -127,3 +118,7 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
     }
 
 }
+
+
+
+

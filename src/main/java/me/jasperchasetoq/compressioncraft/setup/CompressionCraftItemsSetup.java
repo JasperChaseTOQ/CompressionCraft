@@ -5,9 +5,9 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.implementation.machines.compressors.*;
-import me.jasperchasetoq.compressioncraft.implementation.machines.decompressors.*;
-import me.jasperchasetoq.compressioncraft.implementation.machines.misc.LoreRefresher;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.compressors.*;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.decompressors.*;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.misc.LoreRefresher;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -137,6 +137,10 @@ public class CompressionCraftItemsSetup {
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_CLAY_BALL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_CLAY_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_SNOW_BALL_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_SNOW_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new SlimefunItem(CompressionCraftItems.CC_COMPRESSED_ITEMS, CompressionCraftItems.CC_COAL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);

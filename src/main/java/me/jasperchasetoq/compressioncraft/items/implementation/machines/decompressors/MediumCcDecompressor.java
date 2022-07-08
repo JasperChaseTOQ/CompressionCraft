@@ -1,4 +1,4 @@
-package me.jasperchasetoq.compressioncraft.implementation.machines.decompressors;
+package me.jasperchasetoq.compressioncraft.items.implementation.machines.decompressors;
 
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -19,10 +19,10 @@ import org.bukkit.inventory.ItemStack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GoodCcDecompressor extends AContainer implements RecipeDisplayItem {
+public class MediumCcDecompressor extends AContainer implements RecipeDisplayItem {
 
 
-    public GoodCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
+    public MediumCcDecompressor(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe);
         addItemHandler(onBreak());
     }
@@ -67,8 +67,6 @@ public class GoodCcDecompressor extends AContainer implements RecipeDisplayItem 
         registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 8)});
         //Triple Compressed
         registerRecipe(36, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_2, 8)});
-        //Quadruple Compressed
-        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_4, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_3, 8)});
     }
 
     @Override
@@ -83,27 +81,26 @@ public class GoodCcDecompressor extends AContainer implements RecipeDisplayItem 
         return displayRecipes;
     }
 
-    @Override
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&2Good CC Decompressor";}
+    public String getInventoryTitle() {return "&6Medium CC Decompressor";}
     @Override
     public String getMachineIdentifier() {
-        return "CC_DECOMPRESSOR_4";
+        return "CC_DECOMPRESSOR_3";
     }
     @Override
     public int getCapacity() {
-        return 1000;
+        return 750;
     }
     @Override
     public int getEnergyConsumption() {
-        return 100;
+        return 75;
     }
     @Override
     public int getSpeed() {
-        return 4;
+        return 3;
     }
 
     public BlockBreakHandler onBreak() {
