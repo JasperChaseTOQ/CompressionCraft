@@ -82,30 +82,13 @@ public class BasicCcDecompressor extends AContainer implements RecipeDisplayItem
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
 
-    @Override
-    public String getInventoryTitle() {
-        return "&eBasic CC Decompressor";
-    }
+
 
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_1";
     }
 
-    @Override
-    public int getCapacity() {
-        return 250;
-    }
-
-    @Override
-    public int getEnergyConsumption() {
-        return 50;
-    }
-
-    @Override
-    public int getSpeed() {
-        return 1;
-    }
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

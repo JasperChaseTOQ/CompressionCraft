@@ -83,24 +83,12 @@ public class AverageCcCompressor extends AContainer implements RecipeDisplayItem
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&6Average CC Compressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_COMPRESSOR_2";
     }
-    @Override
-    public int getCapacity() {
-        return 500;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 100;
-    }
-    @Override
-    public int getSpeed() {
-        return 2;
-    }
+
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {
 

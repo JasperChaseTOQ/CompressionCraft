@@ -51,11 +51,6 @@ public class CompressionCraftItems {
     //blocks
 
     public static final SlimefunItemStack CC_COBBLESTONE_1 = new SlimefunItemStack("CC_COBBLESTONE_1", Material.COBBLESTONE, "&fCompressed Cobblestone",  "&f8 Cobblestone", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_COBBLESTONE_2 = new SlimefunItemStack("CC_COBBLESTONE_2", Material.COBBLESTONE, "&fDouble Compressed Cobblestone",  "&f64 Cobblestone", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_COBBLESTONE_3 = new SlimefunItemStack("CC_COBBLESTONE_3", Material.COBBLESTONE, "&fTriple Compressed Cobblestone",  "&f512 Cobblestone", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_COBBLESTONE_4 = new SlimefunItemStack("CC_COBBLESTONE_4", Material.COBBLESTONE, "&fQuadruple Compressed Cobblestone",  "&f4096 Cobblestone", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_COBBLESTONE_5 = new SlimefunItemStack("CC_COBBLESTONE_5", Material.COBBLESTONE, "&fQuintuple Compressed Cobblestone",  "&f32768 Cobblestone", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_COBBLESTONE_6 = new SlimefunItemStack("CC_COBBLESTONE_6", Material.COBBLESTONE, "&fSextuple Compressed Cobblestone",  "&f262144 Cobblestone", "&fCompressionCraft");
     public static final SlimefunItemStack CC_STONE_1 = new SlimefunItemStack("CC_STONE_1", Material.STONE, "&fCompressed Stone",  "&f8 Stone", "&fCompressionCraft");
     public static final SlimefunItemStack CC_ANDESITE_1 = new SlimefunItemStack("CC_ANDESITE_1", Material.ANDESITE, "&fCompressed Andesite",  "&f8 Andesite", "&fCompressionCraft");
     public static final SlimefunItemStack CC_DIORITE_1 = new SlimefunItemStack("CC_DIORITE_1", Material.DIORITE, "&fCompressed Diorite",  "&f8 Diorite", "&fCompressionCraft");
@@ -91,6 +86,11 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_MEDIUM_AMETHYST_BUD_1 = new SlimefunItemStack("CC_MEDIUM_AMETHYST_BUD_1", Material.MEDIUM_AMETHYST_BUD, "&fCompressed Medium Amethyst Bud",  "&f8 Medium Amethyst Bud", "&fCompressionCraft");
     public static final SlimefunItemStack CC_LARGE_AMETHYST_BUD_1 = new SlimefunItemStack("CC_LARGE_AMETHYST_BUD_1", Material.LARGE_AMETHYST_BUD, "&fCompressed Large Amethyst Bud",  "&f8 Large Amethyst Bud", "&fCompressionCraft");
     public static final SlimefunItemStack CC_AMETHYST_CLUSTER_1 = new SlimefunItemStack("CC_AMETHYST_CLUSTER_1", Material.AMETHYST_CLUSTER, "&fCompressed Amethyst Cluster",  "&f8 Amethyst Cluster", "&fCompressionCraft");
+    public static final SlimefunItemStack CC_COBBLESTONE_2 = new SlimefunItemStack("CC_COBBLESTONE_2", Material.COBBLESTONE, "&fDouble Compressed Cobblestone",  "&f64 Cobblestone", "&fCompressionCraft");
+    public static final SlimefunItemStack CC_COBBLESTONE_3 = new SlimefunItemStack("CC_COBBLESTONE_3", Material.COBBLESTONE, "&fTriple Compressed Cobblestone",  "&f512 Cobblestone", "&fCompressionCraft");
+    public static final SlimefunItemStack CC_COBBLESTONE_4 = new SlimefunItemStack("CC_COBBLESTONE_4", Material.COBBLESTONE, "&fQuadruple Compressed Cobblestone",  "&f4096 Cobblestone", "&fCompressionCraft");
+    public static final SlimefunItemStack CC_COBBLESTONE_5 = new SlimefunItemStack("CC_COBBLESTONE_5", Material.COBBLESTONE, "&fQuintuple Compressed Cobblestone",  "&f32768 Cobblestone", "&fCompressionCraft");
+    public static final SlimefunItemStack CC_COBBLESTONE_6 = new SlimefunItemStack("CC_COBBLESTONE_6", Material.COBBLESTONE, "&fSextuple Compressed Cobblestone",  "&f262144 Cobblestone", "&fCompressionCraft");
     //addon info
     public static final SlimefunItemStack CC_MC_VERSION = new SlimefunItemStack("CC_MC_VERSION", Material.BOOK, "&fMinecraft Version",  "&fWorks on versions 1.17x-1.19x");
     public static final SlimefunItemStack CC_JAVA_VERSION = new SlimefunItemStack("CC_JAVA_VERSION", Material.BOOK, "&fJava Version",  "&fCompressionCraft requires Java 16+ to work");

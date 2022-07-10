@@ -87,24 +87,12 @@ public class GoodCcDecompressor extends AContainer implements RecipeDisplayItem 
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&2Good CC Decompressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_4";
     }
-    @Override
-    public int getCapacity() {
-        return 1000;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 100;
-    }
-    @Override
-    public int getSpeed() {
-        return 4;
-    }
+
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

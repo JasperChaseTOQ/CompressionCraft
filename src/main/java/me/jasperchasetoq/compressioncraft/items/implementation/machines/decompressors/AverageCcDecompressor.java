@@ -82,24 +82,12 @@ public class AverageCcDecompressor extends AContainer implements RecipeDisplayIt
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&6Average CC Decompressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_2";
     }
-    @Override
-    public int getCapacity() {
-        return 500;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 100;
-    }
-    @Override
-    public int getSpeed() {
-        return 2;
-    }
+
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

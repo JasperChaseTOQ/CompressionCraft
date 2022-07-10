@@ -86,21 +86,11 @@ public class AdvancedCcCompressor extends AContainer implements RecipeDisplayIte
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&6Advanced CC Compressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_COMPRESSOR_5";
     }
-    @Override
-    public int getCapacity() {
-        return 1250;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 125;
-    }
-    @Override public int getSpeed() {return 5;}
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

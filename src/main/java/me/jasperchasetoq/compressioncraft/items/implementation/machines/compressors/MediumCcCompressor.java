@@ -83,24 +83,12 @@ public class MediumCcCompressor extends AContainer implements RecipeDisplayItem 
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&aMedium CC Decompressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_3";
     }
-    @Override
-    public int getCapacity() {
-        return 750;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 75;
-    }
-    @Override
-    public int getSpeed() {
-        return 3;
-    }
+
 
     public BlockBreakHandler onBreak() {
         return new BlockBreakHandler(false, false) {

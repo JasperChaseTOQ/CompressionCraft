@@ -89,23 +89,10 @@ public class EndgameCcCompressor extends AContainer implements RecipeDisplayItem
     public ItemStack getProgressBar() {
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
-    @Override
-    public String getInventoryTitle() {return "&4End-Game CC Compressor";}
+
     @Override
     public String getMachineIdentifier() {
         return "CC_COMPRESSOR_6";
-    }
-    @Override
-    public int getCapacity() {
-        return 1500;
-    }
-    @Override
-    public int getEnergyConsumption() {
-        return 150;
-    }
-    @Override
-    public int getSpeed() {
-        return 6;
     }
 
     public BlockBreakHandler onBreak() {

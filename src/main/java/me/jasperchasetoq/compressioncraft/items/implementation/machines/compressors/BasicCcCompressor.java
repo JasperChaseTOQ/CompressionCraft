@@ -83,30 +83,8 @@ public class BasicCcCompressor extends AContainer implements RecipeDisplayItem {
         }
 
         @Override
-        public String getInventoryTitle() {
-
-            return "&eBasic CC Compressor";
-
-        }
-
-        @Override
         public String getMachineIdentifier() {
             return "CC_COMPRESSOR_1";
-        }
-
-        @Override
-        public int getCapacity() {
-            return 250;
-        }
-
-        @Override
-        public int getEnergyConsumption() {
-            return 50;
-        }
-
-        @Override
-        public int getSpeed() {
-            return 1;
         }
 
         public BlockBreakHandler onBreak() {
