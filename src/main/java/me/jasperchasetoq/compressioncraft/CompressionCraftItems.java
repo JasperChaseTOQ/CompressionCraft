@@ -17,9 +17,8 @@ public class CompressionCraftItems {
 
     //groups
     public static final NestedItemGroup CC_GENERAL = new NestedItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CC_GENERAL"), new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
-    public static final SubItemGroup CC_COMPRESSED_ITEMS = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CC_COMPRESSED_ITEMS"), CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressed Items"));
-    public static final SubItemGroup CC_ITEM_COMPRESSION = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CC_ITEM_COMPRESSION"), CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressors & Decompressors"));
-    public static final SubItemGroup CC_MACHINES = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CC_MACHINES"), CC_GENERAL, new CustomItemStack(Material.FURNACE, "&bMachines"));
+    public static final SubItemGroup JC_CC_ITEM_COMPRESSION = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_ITEM_COMPRESSION"), CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressed Items"));
+    public static final SubItemGroup JC_CC_MACHINES = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_MACHINES"), CC_GENERAL, new CustomItemStack(Material.FURNACE, "&bMachines"));
     public static final SubItemGroup CC_INFO = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CC_INFO"), CC_GENERAL, new CustomItemStack(Material.BOOK, "&bAddon Info"));
 
     public static final ItemGroup CompressionCraftGeneral = new ItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CompressionCraft"),
