@@ -21,81 +21,56 @@ public class CompressionCraftItemsSetup {
 
 
         //machines Old
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-            }).setCapacity(250)
-                .setEnergyConsumption(25)
-                .setProcessingSpeed(1)
+            }).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,
+                })
                 .register(plugin);
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_2, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(500)
-                .setEnergyConsumption(50)
-                .setProcessingSpeed(2)
+                })
                 .register(plugin);
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(750)
-                .setEnergyConsumption(75)
-                .setProcessingSpeed(3)
+                })
                 .register(plugin);
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_5, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1000)
-                .setEnergyConsumption(100)
-                .setProcessingSpeed(4)
+                })
                 .register(plugin);
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_5, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1250)
-                .setEnergyConsumption(125)
-                .setProcessingSpeed(5)
-                .register(plugin);
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_COMPRESSOR_6, RecipeType.NULL,
-                new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1500)
-                .setEnergyConsumption(150)
-                .setProcessingSpeed(6)
+                })
                 .register(plugin);
 
 
         //machines decompressors
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(250)
-                .setEnergyConsumption(25)
-                .setProcessingSpeed(1)
+                })
                 .register(plugin);
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(500)
-                .setEnergyConsumption(50)
-                .setProcessingSpeed(2)
+                })
                 .register(plugin);
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(750)
-                .setEnergyConsumption(75)
-                .setProcessingSpeed(3)
+                })
                 .register(plugin);
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1000)
-                .setEnergyConsumption(100)
-                .setProcessingSpeed(4)
+                })
                 .register(plugin);
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1250)
-                .setEnergyConsumption(125)
-                .setProcessingSpeed(5)
+                })
                 .register(plugin);
-        new CcDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.NULL,
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,
-                }).setCapacity(1500)
-                .setEnergyConsumption(150)
-                .setProcessingSpeed(6)
-                .register(plugin);
+                }).register(plugin);
+
         //Machines Misc
         new LoreRefresher(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_JC_LORE_REFRESHER, RecipeType.NULL,
                 new ItemStack[] {
