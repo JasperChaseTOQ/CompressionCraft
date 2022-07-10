@@ -3,6 +3,7 @@ package me.jasperchasetoq.compressioncraft.items.implementation.machines;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.core.attributes.RecipeDisplayItem;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
@@ -15,7 +16,7 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
 
-public class LoreRefresher extends AContainer {
+public class LoreRefresher extends AContainer implements RecipeDisplayItem {
 
 
     public LoreRefresher(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
@@ -25,7 +26,18 @@ public class LoreRefresher extends AContainer {
     @Override
     protected void registerDefaultRecipes() {
 
-        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COBBLESTONE_1, 1)}, new ItemStack[] {CompressionCraftItems.CC_COBBLESTONE_1});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_1, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_1});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_2, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_2});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_3, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_3});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_4, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_4});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_5, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_5});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_COMPRESSOR_6, 1)}, new ItemStack[] {CompressionCraftItems.CC_COMPRESSOR_6});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_1, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_1});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_2, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_2});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_3, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_3});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_4, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_4});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_5, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_5});
+        registerRecipe(0, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.CC_DECOMPRESSOR_6, 1)}, new ItemStack[] {CompressionCraftItems.CC_DECOMPRESSOR_6});
 
     }
     @Override
