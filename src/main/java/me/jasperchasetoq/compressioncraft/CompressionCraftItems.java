@@ -62,8 +62,8 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_DIRT_1 = new SlimefunItemStack("CC_DIRT_1", Material.DIRT, "&fCompressed Dirt",  "&f8 Dirt", "&fCompressionCraft");
     public static final SlimefunItemStack CC_CLAY_BALL_1 = new SlimefunItemStack("CC_CLAY_BALL_1", Material.CLAY_BALL, "&fCompressed Clay Ball",  "&f8 Clay Ball", "&fCompressionCraft");
     public static final SlimefunItemStack CC_CLAY_1 = new SlimefunItemStack("CC_CLAY_1", Material.CLAY, "&fCompressed Clay",  "&f8 Clay", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_SNOW_BALL_1 = new SlimefunItemStack("CC_SNOW_BALL_1", Material.SNOWBALL, "&fCompressed Snow Ball",  "&f8 Snow Ball", "&fCompressionCraft");
-    public static final SlimefunItemStack CC_SNOW_BLOCK_1 = new SlimefunItemStack("CC_SNOW_BLOCK_1", Material.SNOW_BLOCK, "&fCompressed Snow Block",  "&f8 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SNOW_BALL_1 = new SlimefunItemStack("JC_SNOW_BALL_1", Material.SNOWBALL, "&fCompressed Snow Ball",  "&f8 Snow Ball", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SNOW_BLOCK_1 = new SlimefunItemStack("JC_SNOW_BLOCK_1", Material.SNOW_BLOCK, "&fCompressed Snow Block",  "&f8 Snow Block", "&fCompressionCraft");
     public static final SlimefunItemStack CC_COAL_1 = new SlimefunItemStack("CC_COAL_1", Material.COAL, "&fCompressed Coal",  "&f8 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack CC_COAL_BLOCK_1 = new SlimefunItemStack("CC_COAL_BLOCK_1", Material.COAL_BLOCK, "&fCompressed Coal Block",  "&f8 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack CC_IRON_NUGGET_1 = new SlimefunItemStack("CC_IRON_NUGGET_1", Material.IRON_NUGGET, "&fCompressed Iron Nugget",  "&f8 Iron Nugget", "&fCompressionCraft");
@@ -95,8 +95,8 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack CC_MC_VERSION = new SlimefunItemStack("CC_MC_VERSION", Material.BOOK, "&fMinecraft Version",  "&fWorks on versions 1.17x-1.19x");
     public static final SlimefunItemStack CC_JAVA_VERSION = new SlimefunItemStack("CC_JAVA_VERSION", Material.BOOK, "&fJava Version",  "&fCompressionCraft requires Java 16+ to work");
     public static final SlimefunItemStack CC_SF_BUILD = new SlimefunItemStack("CC_SF_BUILD", Material.BOOK, "&fSlimefun Build",  "&fCompressionCraft was built on slimefun version: RC-32");
+    public static final SlimefunItemStack CC_PREFIX = new SlimefunItemStack("CC_PREFIX", Material.BOOK, "&fPrefixs (for devs)",  "&fCompressioncraft currently uses the follow prefixs for item registraction","CC","JC");
     public static final SlimefunItemStack CC_VERSION = new SlimefunItemStack("CC_VERSION", Material.BOOK, "&fCompressioncraft Verison",  "&fCompressioncraft Info",
-            
             "&f" + CompressionCraft.getInstance().getName() + " " + CompressionCraft.getInstance().getPluginVersion());
     //Credit and the source for the CC_VERSION goes to https://github.com/Sfiguz7/TranscEndence/blob/master/src/main/java/me/sfiguz7/transcendence/lists/TEItems.java
 }
