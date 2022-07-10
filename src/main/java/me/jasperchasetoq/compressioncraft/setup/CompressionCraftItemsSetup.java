@@ -5,9 +5,9 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.compressors.*;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.decompressors.*;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.misc.LoreRefresher;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.CcCompressor;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.CcDecompressor;
+import me.jasperchasetoq.compressioncraft.items.implementation.machines.LoreRefresher;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -21,7 +21,7 @@ public class CompressionCraftItemsSetup {
 
         //machines
         //compressors
-        new BasicCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[] {
                     SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
                     SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.ELECTRIC_PRESS, SlimefunItems.ELECTRIC_MOTOR,
@@ -30,7 +30,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(25)
                 .setProcessingSpeed(1)
                 .register(plugin);
-        new AverageCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.COMPRESSED_CARBON, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.COMPRESSED_CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
@@ -39,7 +39,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(50)
                 .setProcessingSpeed(2)
                 .register(plugin);
-        new MediumCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
@@ -48,7 +48,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(75)
                 .setProcessingSpeed(3)
                 .register(plugin);
-        new GoodCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
@@ -57,7 +57,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(100)
                 .setProcessingSpeed(4)
                 .register(plugin);
-        new AdvancedCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.RAW_CARBONADO, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.RAW_CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_4, SlimefunItems.ELECTRIC_MOTOR,
@@ -66,7 +66,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(125)
                 .setProcessingSpeed(5)
                 .register(plugin);
-        new EndgameCcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcCompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
@@ -78,7 +78,7 @@ public class CompressionCraftItemsSetup {
 
 
         //machines decompressors
-        new BasicCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
@@ -87,7 +87,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(25)
                 .setProcessingSpeed(1)
                 .register(plugin);
-        new AverageCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.COMPRESSED_CARBON, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.COMPRESSED_CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
@@ -96,7 +96,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(50)
                 .setProcessingSpeed(2)
                 .register(plugin);
-        new MediumCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
@@ -105,7 +105,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(75)
                 .setProcessingSpeed(3)
                 .register(plugin);
-        new GoodCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
@@ -114,7 +114,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(100)
                 .setProcessingSpeed(4)
                 .register(plugin);
-        new AdvancedCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.RAW_CARBONADO, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.RAW_CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_4, SlimefunItems.ELECTRIC_MOTOR,
@@ -123,7 +123,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(125)
                 .setProcessingSpeed(5)
                 .register(plugin);
-        new EndgameCcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcDecompressor(CompressionCraftItems.CC_ITEM_COMPRESSION, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.CC_DECOMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
