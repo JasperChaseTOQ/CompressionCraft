@@ -87,11 +87,11 @@ public class CcCompressor extends AContainer implements RecipeDisplayItem {
         public ItemStack getProgressBar() {
             return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
         }
+        @Override
+        public String getMachineIdentifier() {return "CC_COMPRESSOR";}
 
         @Override
-        public String getMachineIdentifier() {
-            return "CC_COMPRESSOR";
-        }
+        public String getInventoryTitle() {return "&fCompressionCraft " + getItemName();}
 
         public BlockBreakHandler onBreak() {
             return new BlockBreakHandler(false, false) {
