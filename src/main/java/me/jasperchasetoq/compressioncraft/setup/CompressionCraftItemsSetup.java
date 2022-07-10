@@ -224,15 +224,15 @@ public class CompressionCraftItemsSetup {
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.CC_AMETHYST_CLUSTER_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         //addon info
-        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_MC_VERSION, RecipeType.NULL,
+        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_MC_VERSION, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_JAVA_VERSION, RecipeType.NULL,
+        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_JAVA_VERSION, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_SF_BUILD, RecipeType.NULL,
+        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_SF_BUILD, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_VERSION, RecipeType.NULL,
+        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_VERSION, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.CC_INFO, CompressionCraftItems.CC_PREFIX, RecipeType.NULL,
+        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_PREFIX, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 
 
