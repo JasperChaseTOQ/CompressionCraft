@@ -87,8 +87,10 @@ public class CcDecompressor extends AContainer implements RecipeDisplayItem {
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_FLINT_1, 1)}, new ItemStack[]{new ItemStack(Material.FLINT, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_GRAVEL_1, 1)}, new ItemStack[]{new ItemStack(Material.GRAVEL, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_DIRT_1, 1)}, new ItemStack[]{new ItemStack(Material.DIRT, 8)});
-        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CLAY_1, 1)}, new ItemStack[]{new ItemStack(Material.CLAY, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CLAY_BALL_1, 1)}, new ItemStack[]{new ItemStack(Material.CLAY_BALL, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CLAY_1, 1)}, new ItemStack[]{new ItemStack(Material.CLAY, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BALL_1, 1)}, new ItemStack[]{new ItemStack(Material.SNOWBALL, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_1, 1)}, new ItemStack[]{new ItemStack(Material.SNOW_BLOCK, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_COAL_1, 1)}, new ItemStack[]{new ItemStack(Material.COAL, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_COAL_BLOCK_1, 1)}, new ItemStack[]{new ItemStack(Material.COAL_BLOCK, 8)});
         registerRecipe(4, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_1, 1)}, new ItemStack[]{new ItemStack(Material.IRON_NUGGET, 8)});

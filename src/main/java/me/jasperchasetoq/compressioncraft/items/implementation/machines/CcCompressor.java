@@ -41,6 +41,8 @@ public class CcCompressor extends AContainer implements RecipeDisplayItem {
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.DIRT, 8)}, new ItemStack[] {CompressionCraftItems.JC_DIRT_1});
             registerRecipe(2, new ItemStack[] {new ItemStack(Material.CLAY_BALL, 8)}, new ItemStack[] {CompressionCraftItems.JC_CLAY_BALL_1});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.CLAY, 8)}, new ItemStack[] {CompressionCraftItems.JC_CLAY_1});
+            registerRecipe(8, new ItemStack[] {new ItemStack(Material.SNOWBALL, 8)}, new ItemStack[] {CompressionCraftItems.JC_SNOW_BALL_1});
+            registerRecipe(8, new ItemStack[] {new ItemStack(Material.SNOW_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.JC_SNOW_BLOCK_1});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.COAL, 8)}, new ItemStack[] {CompressionCraftItems.JC_COAL_1});
             registerRecipe(16, new ItemStack[] {new ItemStack(Material.COAL_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.JC_COAL_BLOCK_1});
             registerRecipe(4, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_1});
