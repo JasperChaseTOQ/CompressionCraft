@@ -113,10 +113,6 @@ public class CompressionCraftItemsSetup {
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.CC_CLAY_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SNOW_BALL_1, RecipeType.NULL,
-                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SNOW_BLOCK_1, RecipeType.NULL,
-                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COAL_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.CC_COAL_BLOCK_1, RecipeType.NULL,
