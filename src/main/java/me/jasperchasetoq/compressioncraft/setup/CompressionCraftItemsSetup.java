@@ -72,9 +72,9 @@ public class CompressionCraftItemsSetup {
                 }).register(plugin);
 
         //Machines Misc
-        new LoreRefresher(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_JC_LORE_REFRESHER, RecipeType.NULL,
+        new LoreRefresher(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_JC_LORE_REFRESHER, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
-                        CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.CC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1,
+                        CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1,
                         CompressionCraftItems.JC_COBBLESTONE_1, new ItemStack(Material.LECTERN), CompressionCraftItems.JC_COBBLESTONE_1,
                         CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1,
                 }).register(plugin);
