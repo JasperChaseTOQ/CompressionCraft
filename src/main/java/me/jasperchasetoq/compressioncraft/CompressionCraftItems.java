@@ -10,20 +10,14 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
+import javax.annotation.Nonnull;
 
 public class CompressionCraftItems {
 
     private CompressionCraftItems() {}
-
-    //groups
-    public static final NestedItemGroup JC_CC_GENERAL = new NestedItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_GENERAL"), new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
-    public static final SubItemGroup JC_CC_ITEM_COMPRESSION = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_ITEM_COMPRESSION"), JC_CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressed Items"));
-    public static final SubItemGroup JC_CC_MACHINES = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_MACHINES"), JC_CC_GENERAL, new CustomItemStack(Material.FURNACE, "&bMachines"));
-    public static final SubItemGroup JC_CC_INFO = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_INFO"), JC_CC_GENERAL, new CustomItemStack(Material.BOOK, "&bAddon Info"));
-
-    public static final ItemGroup CompressionCraftGeneral = new ItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CompressionCraft"),
-            new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
-
 
 
     //machines Old
@@ -324,8 +318,30 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CC_MC_VERSION = new SlimefunItemStack("JC_CC_MC_VERSION", Material.BOOK, "&fMinecraft Version",  "&fWorks on versions 1.17x-1.19x");
     public static final SlimefunItemStack JC_CC_JAVA_VERSION = new SlimefunItemStack("JC_CC_JAVA_VERSION", Material.BOOK, "&fJava Version",  "&fCompressionCraft requires Java 16+ to work");
     public static final SlimefunItemStack JC_CC_SF_BUILD = new SlimefunItemStack("JC_CC_SF_BUILD", Material.BOOK, "&fSlimefun Build",  "&fCompressionCraft was built on slimefun version: RC-32");
-    public static final SlimefunItemStack JC_CC_PREFIX = new SlimefunItemStack("JC_CC_PREFIX", Material.BOOK, "&fPrefixs (for devs)",  "&fCompressioncraft currently uses the follow prefixs for item registraction","CC","JC");
-    public static final SlimefunItemStack JC_CC_VERSION = new SlimefunItemStack("JC_CC_VERSION", Material.BOOK, "&fCompressioncraft Verison",  "&fCompressioncraft Info",
+    public static final SlimefunItemStack JC_CC_VERSION = new SlimefunItemStack("JC_CC_VERSION", Material.BOOK, "&fCompressioncraft Version",  "&fCompressioncraft Info",
             "&f" + CompressionCraft.getInstance().getName() + " " + CompressionCraft.getInstance().getPluginVersion());
     //Credit and the source for the CC_VERSION goes to https://github.com/Sfiguz7/TranscEndence/blob/master/src/main/java/me/sfiguz7/transcendence/lists/TEItems.java
+
+    public static final NestedItemGroup JC_CC_GENERAL = new NestedItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_GENERAL"), new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
+    public static final SubItemGroup JC_CC_ITEM_COMPRESSION = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_ITEM_COMPRESSION"), JC_CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressed Items"));
+    public static final SubItemGroup JC_CC_MACHINES = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_MACHINES"), JC_CC_GENERAL, new CustomItemStack(Material.FURNACE, "&bMachines"));
+    public static final SubItemGroup JC_CC_INFO = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_INFO"), JC_CC_GENERAL, new CustomItemStack(Material.BOOK, "&bAddon Info"));
+    public static final ItemGroup JC_CC_DISABLED = new HiddenItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_DISABLED"), new CustomItemStack(Material.BARRIER, "&4Disabled Items"));
+
+    public static final ItemGroup CompressionCraftGeneral = new ItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "CompressionCraft"),
+            new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
+   /*
+   Credit and the source for the hidden item group goes to https://github.com/Sefiraat/Networks/blob/master/src/main/java/io/github/sefiraat/networks/slimefun/NetworksItemGroups.java
+    */
+    public static class HiddenItemGroup extends ItemGroup {
+
+        public HiddenItemGroup(NamespacedKey key, ItemStack item) {
+            super(key, item);
+        }
+
+        @Override
+        public boolean isHidden(@Nonnull Player p) {
+            return true;
+        }
+    }
 }
