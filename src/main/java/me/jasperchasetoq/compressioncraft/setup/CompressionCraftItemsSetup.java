@@ -564,43 +564,131 @@ public class CompressionCraftItemsSetup {
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_LAZULI_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_LAZULI_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_LAZULI_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_LAZULI_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_LAZULI_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LAPIS_BLOCK_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_DIAMOND_BLOCK_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_EMERALD_BLOCK_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_SHARD_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_BLOCK_6, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_SMALL_AMETHYST_BUD_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_1, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_4, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_5, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_6, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_1, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_3, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2, RecipeType.NULL,
+                new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
+        new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2, RecipeType.NULL,
                 new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
