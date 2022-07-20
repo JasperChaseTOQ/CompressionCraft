@@ -204,12 +204,47 @@ public class CcCompressor extends AContainer implements RecipeDisplayItem {
             registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_5});
             registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.EMERALD_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_BLOCK_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_BLOCK_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_BLOCK_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_BLOCK_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_EMERALD_BLOCK_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_EMERALD_BLOCK_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.AMETHYST_SHARD, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_SHARD_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_SHARD_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_SHARD_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_SHARD_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_SHARD_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_SHARD_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.AMETHYST_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_BLOCK_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_BLOCK_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_BLOCK_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_BLOCK_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_BLOCK_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_BLOCK_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.SMALL_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SMALL_AMETHYST_BUD_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SMALL_AMETHYST_BUD_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SMALL_AMETHYST_BUD_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SMALL_AMETHYST_BUD_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SMALL_AMETHYST_BUD_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_SMALL_AMETHYST_BUD_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.MEDIUM_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_MEDIUM_AMETHYST_BUD_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.LARGE_AMETHYST_BUD, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_LARGE_AMETHYST_BUD_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_LARGE_AMETHYST_BUD_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_LARGE_AMETHYST_BUD_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_LARGE_AMETHYST_BUD_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_LARGE_AMETHYST_BUD_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_LARGE_AMETHYST_BUD_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.AMETHYST_CLUSTER, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_1});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_CLUSTER_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_2});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_CLUSTER_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_3});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_CLUSTER_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_4});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_CLUSTER_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_5});
+            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_AMETHYST_CLUSTER_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_AMETHYST_CLUSTER_6});
 
         }
 
