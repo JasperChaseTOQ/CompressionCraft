@@ -1,14 +1,13 @@
 package me.jasperchasetoq.compressioncraft.setup;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.JcItemCompressor;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.JcItemDecompressor;
-import me.jasperchasetoq.compressioncraft.items.implementation.machines.LoreRefresher;
+import me.jasperchasetoq.compressioncraft.implementation.items.machines.JcItemCompressor;
+import me.jasperchasetoq.compressioncraft.implementation.items.machines.JcItemDecompressor;
+import me.jasperchasetoq.compressioncraft.implementation.items.machines.LoreRefresher;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -409,11 +408,5 @@ public class CompressionCraftItemsSetup {
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_CLUSTER_4, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_CLUSTER_5, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_AMETHYST_CLUSTER_6, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-
-        //addon info
-        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_MC_VERSION, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_JAVA_VERSION, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_SF_BUILD, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new SlimefunItem(CompressionCraftItems.JC_CC_INFO, CompressionCraftItems.JC_CC_VERSION, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
 }
 }
