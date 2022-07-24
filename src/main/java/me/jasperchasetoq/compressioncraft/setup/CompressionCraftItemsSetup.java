@@ -16,9 +16,10 @@ public class CompressionCraftItemsSetup {
     private CompressionCraftItemsSetup() {}
 
     public static void setup(@Nonnull CompressionCraft plugin) {
-
+    
         //Machines
         //Compressors
+
         new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
