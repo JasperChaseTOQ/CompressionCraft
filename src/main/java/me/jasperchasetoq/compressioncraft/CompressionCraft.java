@@ -27,22 +27,15 @@ public class CompressionCraft extends AbstractAddon {
         if (!new File(getDataFolder(), "config.yml").exists()) {
             saveDefaultConfig();
         }
-
-        }
+    }
 
     @Override
     public void disable() {
         instance = null;
     }
-
-
-
-
-        public static CompressionCraft getInstance() {
+    public static CompressionCraft getInstance() {
             return instance;
         }
-    public static String getVersion() {
-        return instance.getDescription().getVersion();
-    }
-    }
+
+}
 
