@@ -117,7 +117,7 @@ public class CcItemCompressor extends AContainer implements RecipeDisplayItem {
             registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_COAL_BLOCK_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_COAL_BLOCK_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.IRON_NUGGET, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_1});
             registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_2});
-            registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_3});            registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_COAL_BLOCK_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_COAL_BLOCK_6});
+            registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_3});
             registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_4});
             registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_5});
             registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_NUGGET_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_NUGGET_6});
