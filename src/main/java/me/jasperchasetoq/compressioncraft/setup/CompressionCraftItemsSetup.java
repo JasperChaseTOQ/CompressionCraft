@@ -5,9 +5,8 @@ import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import me.jasperchasetoq.compressioncraft.CompressionCraft;
 import me.jasperchasetoq.compressioncraft.CompressionCraftItems;
-import me.jasperchasetoq.compressioncraft.implementation.items.machines.JcItemCompressor;
-import me.jasperchasetoq.compressioncraft.implementation.items.machines.JcItemDecompressor;
-import me.jasperchasetoq.compressioncraft.implementation.items.machines.LoreRefresher;
+import me.jasperchasetoq.compressioncraft.implementation.items.machines.CcItemCompressor;
+import me.jasperchasetoq.compressioncraft.implementation.items.machines.CcItemDecompressor;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -18,78 +17,18 @@ public class CompressionCraftItemsSetup {
 
     public static void setup(@Nonnull CompressionCraft plugin) {
 
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_2, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_3, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_4, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_5, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COMPRESSOR_6, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_2, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_3, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_4, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_5, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DECOMPRESSOR_6, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        //Machines Misc
-        new LoreRefresher(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.CC_JC_LORE_REFRESHER, RecipeType.ENHANCED_CRAFTING_TABLE,
-                new ItemStack[] {
-                        CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1,
-                        CompressionCraftItems.JC_COBBLESTONE_1, new ItemStack(Material.LECTERN), CompressionCraftItems.JC_COBBLESTONE_1,
-                        CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1, CompressionCraftItems.JC_COBBLESTONE_1,
-                }).register(plugin);
-        //Compressed Items (old)
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_2, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_3, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_4, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_5, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLESTONE_6, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_STONE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_ANDESITE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DIORITE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_GRANITE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COBBLED_DEEPSLATE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DEEPSLATE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_FLINT_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_GRAVEL_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DIRT_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_CLAY_BALL_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_CLAY_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COAL_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_COAL_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_IRON_NUGGET_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_IRON_INGOT_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_IRON_BLOCk_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_GOLD_NUGGET_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_GOLD_INGOT_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_GOLD_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_REDSTONE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_REDSTONE_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_LAPIS_LAZULI_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_LAPIS_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DIAMOND_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_DIAMOND_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_EMERALD_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_EMERALD_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_AMETHYST_SHARD_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_AMETHYST_BLOCK_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_SMALL_AMETHYST_BUD_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_MEDIUM_AMETHYST_BUD_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_LARGE_AMETHYST_BUD_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        new UnplaceableBlock(CompressionCraftItems.JC_CC_DISABLED, CompressionCraftItems.CC_AMETHYST_CLUSTER_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
-        //machines (new)
-        //machines
-        //compressors
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        //Machines
+        //Compressors
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
-                        SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.ELECTRIC_PRESS, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.PISTON), SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBON, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON,
                 }).setCapacity(250)
                 .setEnergyConsumption(25)
                 .setProcessingSpeed(1)
                 .register(plugin);
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.COMPRESSED_CARBON, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.COMPRESSED_CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
@@ -98,7 +37,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(50)
                 .setProcessingSpeed(2)
                 .register(plugin);
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
@@ -107,7 +46,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(75)
                 .setProcessingSpeed(3)
                 .register(plugin);
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
@@ -116,7 +55,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(100)
                 .setProcessingSpeed(4)
                 .register(plugin);
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.RAW_CARBONADO, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.RAW_CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_4, SlimefunItems.ELECTRIC_MOTOR,
@@ -125,7 +64,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(125)
                 .setProcessingSpeed(5)
                 .register(plugin);
-        new JcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
@@ -134,19 +73,17 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(150)
                 .setProcessingSpeed(6)
                 .register(plugin);
-
-
-        //machines decompressors
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
+        //Decompressors
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
-                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.PISTON), SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBON, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON,
                 }).setCapacity(250)
                 .setEnergyConsumption(25)
                 .setProcessingSpeed(1)
                 .register(plugin);
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_2, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.COMPRESSED_CARBON, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.COMPRESSED_CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_DECOMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
@@ -155,7 +92,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(50)
                 .setProcessingSpeed(2)
                 .register(plugin);
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_3, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON_CHUNK, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CARBON_CHUNK,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_DECOMPRESSOR_2, SlimefunItems.ELECTRIC_MOTOR,
@@ -164,7 +101,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(75)
                 .setProcessingSpeed(3)
                 .register(plugin);
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_4, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.SYNTHETIC_DIAMOND,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_DECOMPRESSOR_3, SlimefunItems.ELECTRIC_MOTOR,
@@ -173,7 +110,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(100)
                 .setProcessingSpeed(4)
                 .register(plugin);
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_5, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.RAW_CARBONADO, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.RAW_CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_DECOMPRESSOR_4, SlimefunItems.ELECTRIC_MOTOR,
@@ -182,7 +119,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(125)
                 .setProcessingSpeed(5)
                 .register(plugin);
-        new JcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_6, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBONADO, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.CARBONADO,
                         SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_DECOMPRESSOR_5, SlimefunItems.ELECTRIC_MOTOR,
@@ -191,7 +128,7 @@ public class CompressionCraftItemsSetup {
                 .setEnergyConsumption(150)
                 .setProcessingSpeed(6)
                 .register(plugin);
-        //Compressed Items (New)
+        //Compressed Items
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_COBBLESTONE_1, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_COBBLESTONE_2, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
         new UnplaceableBlock(CompressionCraftItems.JC_CC_ITEM_COMPRESSION, CompressionCraftItems.JC_COBBLESTONE_3, RecipeType.NULL, new ItemStack[] {null, null, null, null, null, null, null, null, null,}).register(plugin);
