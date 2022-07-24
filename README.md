@@ -8,3 +8,6 @@ CompressionCraft uses slimefun RC-32+
 Builds Page  
 <a href="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master"><img src="https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master/badge.svg" alt="Build Status"/></a>  
 
+
+# Credits  
+Infinitylib https://github.com/Mooy1/InfinityLib
