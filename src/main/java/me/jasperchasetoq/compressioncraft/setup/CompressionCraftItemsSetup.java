@@ -20,8 +20,7 @@ public class CompressionCraftItemsSetup {
         //Machines
         //Compressors
 
-        new CcCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
-
+        new CcItemCompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_COMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
                         SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.PISTON), SlimefunItems.ELECTRIC_MOTOR,
