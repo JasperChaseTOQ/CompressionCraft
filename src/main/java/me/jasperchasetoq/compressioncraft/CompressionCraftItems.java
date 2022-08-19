@@ -1,6 +1,5 @@
 package me.jasperchasetoq.compressioncraft;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
@@ -44,6 +43,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_1 = new SlimefunItemStack("JC_CLAY_1", Material.CLAY, "&fCompressed Clay", "&f8 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_1 = new SlimefunItemStack("JC_SNOW_BALL_1", Material.SNOWBALL, "&fCompressed Snow Ball", "&f8 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_1 = new SlimefunItemStack("JC_SNOW_BLOCK_1", Material.SNOW_BLOCK, "&fCompressed Snow Block", "&f8 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_1 = new SlimefunItemStack("JC_CHARCOAL_1", Material.CHARCOAL, "&fCompressed Charcoal", "&f8 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_1 = new SlimefunItemStack("JC_COAL_1", Material.COAL, "&fCompressed Coal", "&f8 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_1 = new SlimefunItemStack("JC_COAL_BLOCK_1", Material.COAL_BLOCK, "&fCompressed Coal Block", "&f8 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_1 = new SlimefunItemStack("JC_IRON_NUGGET_1", Material.IRON_NUGGET, "&fCompressed Iron Nugget", "&f8 Iron Nugget", "&fCompressionCraft");
@@ -80,6 +80,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_2 = new SlimefunItemStack("JC_CLAY_2", Material.CLAY, "&fDouble Compressed Clay", "&f64 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_2 = new SlimefunItemStack("JC_SNOW_BALL_2", Material.SNOWBALL, "&fDouble Compressed Snow Ball", "&f64 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_2 = new SlimefunItemStack("JC_SNOW_BLOCK_2", Material.SNOW_BLOCK, "&fDouble Compressed Snow Block", "&f64 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_2 = new SlimefunItemStack("JC_CHARCOAL_2", Material.CHARCOAL, "&fDouble Compressed Charcoal", "&f64 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_2 = new SlimefunItemStack("JC_COAL_2", Material.COAL, "&fDouble Compressed Coal", "&f64 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_2 = new SlimefunItemStack("JC_COAL_BLOCK_2", Material.COAL_BLOCK, "&fDouble Compressed Coal Block", "&f64 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_2 = new SlimefunItemStack("JC_IRON_NUGGET_2", Material.IRON_NUGGET, "&fDouble Compressed Iron Nugget", "&f64 Iron Nugget", "&fCompressionCraft");
@@ -116,6 +117,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_3 = new SlimefunItemStack("JC_CLAY_3", Material.CLAY, "&fTriple Compressed Clay", "&f512 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_3 = new SlimefunItemStack("JC_SNOW_BALL_3", Material.SNOWBALL, "&fTriple Compressed Snow Ball", "&f512 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_3 = new SlimefunItemStack("JC_SNOW_BLOCK_3", Material.SNOW_BLOCK, "&fTriple Compressed Snow Block", "&f512 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_3 = new SlimefunItemStack("JC_CHARCOAL_3", Material.CHARCOAL, "&fTriple Compressed Charcoal", "&f512 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_3 = new SlimefunItemStack("JC_COAL_3", Material.COAL, "&fTriple Compressed Coal", "&f512 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_3 = new SlimefunItemStack("JC_COAL_BLOCK_3", Material.COAL_BLOCK, "&fTriple Compressed Coal Block", "&f512 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_3 = new SlimefunItemStack("JC_IRON_NUGGET_3", Material.IRON_NUGGET, "&fTriple Compressed Iron Nugget", "&f512 Iron Nugget", "&fCompressionCraft");
@@ -152,6 +154,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_4 = new SlimefunItemStack("JC_CLAY_4", Material.CLAY, "&fQuadruple Compressed Clay", "&f4096 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_4 = new SlimefunItemStack("JC_SNOW_BALL_4", Material.SNOWBALL, "&fQuadruple Compressed Snow Ball", "&f4096 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_4 = new SlimefunItemStack("JC_SNOW_BLOCK_4", Material.SNOW_BLOCK, "&fQuadruple Compressed Snow Block", "&f4096 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_4 = new SlimefunItemStack("JC_CHARCOAL_4", Material.CHARCOAL, "&fQuadruple Compressed Charcoal", "&f4096 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_4 = new SlimefunItemStack("JC_COAL_4", Material.COAL, "&fQuadruple Compressed Coal", "&f4096 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_4 = new SlimefunItemStack("JC_COAL_BLOCK_4", Material.COAL_BLOCK, "&fQuadruple Compressed Coal Block", "&f4096 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_4 = new SlimefunItemStack("JC_IRON_NUGGET_4", Material.IRON_NUGGET, "&fQuadruple Compressed Iron Nugget", "&f4096 Iron Nugget", "&fCompressionCraft");
@@ -188,6 +191,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_5 = new SlimefunItemStack("JC_CLAY_5", Material.CLAY, "&fQuintuple Compressed Clay", "&f32768 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_5 = new SlimefunItemStack("JC_SNOW_BALL_5", Material.SNOWBALL, "&fQuintuple Compressed Snow Ball", "&f32768 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_5 = new SlimefunItemStack("JC_SNOW_BLOCK_5", Material.SNOW_BLOCK, "&fQuintuple Compressed Snow Block", "&f32768 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_5 = new SlimefunItemStack("JC_CHARCOAL_5", Material.CHARCOAL, "&fQuintuple Compressed Charcoal", "&f32768 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_5 = new SlimefunItemStack("JC_COAL_5", Material.COAL, "&fQuintuple Compressed Coal", "&f32768 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_5 = new SlimefunItemStack("JC_COAL_BLOCK_5", Material.COAL_BLOCK, "&fQuintuple Compressed Coal Block", "&f32768 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_5 = new SlimefunItemStack("JC_IRON_NUGGET_5", Material.IRON_NUGGET, "&fQuintuple Compressed Iron Nugget", "&f32768 Iron Nugget", "&fCompressionCraft");
@@ -224,6 +228,7 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_CLAY_6 = new SlimefunItemStack("JC_CLAY_6", Material.CLAY, "&fSextuple Compressed Clay", "&f262144 Clay", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BALL_6 = new SlimefunItemStack("JC_SNOW_BALL_6", Material.SNOWBALL, "&fSextuple Compressed Snow Ball", "&f262144 Snow Ball", "&fCompressionCraft");
     public static final SlimefunItemStack JC_SNOW_BLOCK_6 = new SlimefunItemStack("JC_SNOW_BLOCK_6", Material.SNOW_BLOCK, "&fSextuple Compressed Snow Block", "&f262144 Snow Block", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_CHARCOAL_6 = new SlimefunItemStack("JC_CHARCOAL_6", Material.CHARCOAL, "&fSextuple Compressed Charcoal", "&f262144 Charcoal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_6 = new SlimefunItemStack("JC_COAL_6", Material.COAL, "&fSextuple Compressed Coal", "&f262144 Coal", "&fCompressionCraft");
     public static final SlimefunItemStack JC_COAL_BLOCK_6 = new SlimefunItemStack("JC_COAL_BLOCK_6", Material.COAL_BLOCK, "&fSextuple Compressed Coal Block", "&f262144 Coal Block", "&fCompressionCraft");
     public static final SlimefunItemStack JC_IRON_NUGGET_6 = new SlimefunItemStack("JC_IRON_NUGGET_6", Material.IRON_NUGGET, "&fSextuple Compressed Iron Nugget", "&f262144 Iron Nugget", "&fCompressionCraft");
