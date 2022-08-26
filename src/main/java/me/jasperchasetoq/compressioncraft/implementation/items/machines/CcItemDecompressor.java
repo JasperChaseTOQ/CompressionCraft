@@ -103,6 +103,18 @@ public class CcItemDecompressor extends AContainer implements RecipeDisplayItem 
         registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_4, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_3, 8)});
         registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_5, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_4, 8)});
         registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_6, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_SNOW_BLOCK_5, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_1, 1)}, new ItemStack[]{new ItemStack(Material.OBSIDIAN, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_1, 8)});
+        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_2, 8)});
+        registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_4, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_3, 8)});
+        registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_5, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_4, 8)});
+        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_6, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_OBSIDIAN_5, 8)});
+        registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_1, 1)}, new ItemStack[]{new ItemStack(Material.CRYING_OBSIDIAN, 8)});
+        registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_1, 8)});
+        registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_2, 8)});
+        registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_4, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_3, 8)});
+        registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_5, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_4, 8)});
+        registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_6, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CRYING_OBSIDIAN_5, 8)});
         registerRecipe(8, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CHARCOAL_1, 1)}, new ItemStack[]{new ItemStack(Material.CHARCOAL, 8)});
         registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CHARCOAL_2, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CHARCOAL_1, 8)});
         registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CHARCOAL_3, 1)}, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_CHARCOAL_2, 8)});
