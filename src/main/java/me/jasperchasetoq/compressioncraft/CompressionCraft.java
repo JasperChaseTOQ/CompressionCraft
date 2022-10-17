@@ -3,7 +3,7 @@ package me.jasperchasetoq.compressioncraft;
 import io.github.mooy1.infinitylib.core.AbstractAddon;
 import io.github.mooy1.infinitylib.metrics.bukkit.Metrics;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
-import me.jasperchasetoq.compressioncraft.setup.CompressionCraftItemsSetup;
+import me.jasperchasetoq.compressioncraft.setup.CompressionCraftItemSetup;
 
 import java.io.File;
 
@@ -23,7 +23,7 @@ public class CompressionCraft extends AbstractAddon {
 
         Config cfg = new Config(this);
 
-        CompressionCraftItemsSetup.setup(this);
+        CompressionCraftItemSetup.setup(this);
         if (!new File(getDataFolder(), "config.yml").exists()) {
             saveDefaultConfig();
         }
