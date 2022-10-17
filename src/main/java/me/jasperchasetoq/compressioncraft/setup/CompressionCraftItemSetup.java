@@ -13,8 +13,8 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
-public class CompressionCraftItemsSetup {
-    private CompressionCraftItemsSetup() {}
+public class CompressionCraftItemSetup {
+    private CompressionCraftItemSetup() {}
 
     public static void setup(@Nonnull CompressionCraft plugin) {
     
@@ -79,7 +79,7 @@ public class CompressionCraftItemsSetup {
         new CcItemDecompressor(CompressionCraftItems.JC_CC_MACHINES, CompressionCraftItems.JC_DECOMPRESSOR_1, RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[] {
                         SlimefunItems.CARBON, SlimefunItems.SMALL_CAPACITOR, SlimefunItems.CARBON,
-                        SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.PISTON), SlimefunItems.ELECTRIC_MOTOR,
+                        SlimefunItems.ELECTRIC_MOTOR, CompressionCraftItems.JC_COMPRESSOR_1, SlimefunItems.ELECTRIC_MOTOR,
                         SlimefunItems.CARBON, SlimefunItems.HEATING_COIL, SlimefunItems.CARBON,
                 }).setCapacity(250)
                 .setEnergyConsumption(25)
