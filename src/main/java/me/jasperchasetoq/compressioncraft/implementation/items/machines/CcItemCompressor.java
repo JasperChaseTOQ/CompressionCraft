@@ -146,11 +146,11 @@ public class CcItemCompressor extends AContainer implements RecipeDisplayItem {
             registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_INGOT_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_INGOT_5});
             registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_INGOT_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_INGOT_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.IRON_BLOCK, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
-            registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
-            registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
-            registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
-            registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
-            registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_1});
+            registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_2});
+            registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_3});
+            registerRecipe(32, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_3, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_4});
+            registerRecipe(40, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_4, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_5});
+            registerRecipe(48, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_IRON_BLOCk_5, 8)}, new ItemStack[] {CompressionCraftItems.JC_IRON_BLOCk_6});
             registerRecipe(8, new ItemStack[] {new ItemStack(Material.GOLD_NUGGET, 8)}, new ItemStack[]{CompressionCraftItems.JC_GOLD_NUGGET_1});
             registerRecipe(16, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_GOLD_NUGGET_1, 8)}, new ItemStack[] {CompressionCraftItems.JC_GOLD_NUGGET_2});
             registerRecipe(24, new SlimefunItemStack[]{new SlimefunItemStack(CompressionCraftItems.JC_GOLD_NUGGET_2, 8)}, new ItemStack[] {CompressionCraftItems.JC_GOLD_NUGGET_3});
