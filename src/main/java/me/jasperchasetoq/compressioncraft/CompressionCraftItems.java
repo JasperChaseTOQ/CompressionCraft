@@ -267,6 +267,93 @@ public class CompressionCraftItems {
     public static final SlimefunItemStack JC_LARGE_AMETHYST_BUD_6 = new SlimefunItemStack("JC_LARGE_AMETHYST_BUD_6", Material.LARGE_AMETHYST_BUD, "&fSextuple Compressed Large Amethyst Bud", "&f262144 Large Amethyst Bud", "&fCompressionCraft");
     public static final SlimefunItemStack JC_AMETHYST_CLUSTER_6 = new SlimefunItemStack("JC_AMETHYST_CLUSTER_6", Material.AMETHYST_CLUSTER, "&fSextuple Compressed Amethyst Cluster", "&f262144 Amethyst Cluster", "&fCompressionCraft");
 
+
+
+    //CC2
+
+    public static final SlimefunItemStack JC_OAK_LOG_1 = new SlimefunItemStack("JC_OAK_LOG_1", Material.OAK_LOG, "&fCompressed Oak Log", "&f8 Oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_LOG_2 = new SlimefunItemStack("JC_OAK_LOG_2", Material.OAK_LOG, "&Double Compressed Oak Log", "&f64 Oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_LOG_3 = new SlimefunItemStack("JC_OAK_LOG_3", Material.OAK_LOG, "&fTriple Compressed Oak Log", "&f512 Oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_LOG_4 = new SlimefunItemStack("JC_OAK_LOG_4", Material.OAK_LOG, "&fQuadruple Compressed Oak Log", "&f4096 Oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_LOG_5 = new SlimefunItemStack("JC_OAK_LOG_5", Material.OAK_LOG, "&fQuintuple Compressed Oak Log", "&f32768 Oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_LOG_6 = new SlimefunItemStack("JC_OAK_LOG_6", Material.OAK_LOG, "&fSextuple Compressed Oak Log", "&f262144 Oak Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_BIRCH_LOG_1 = new SlimefunItemStack("JC_BIRCH_LOG_1", Material.BIRCH_LOG, "&fCompressed Birch Log", "&f8 Birch Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_LOG_2 = new SlimefunItemStack("JC_BIRCH_LOG_2", Material.BIRCH_LOG, "&Double Compressed Birch Log", "&f64 Birch Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_LOG_3 = new SlimefunItemStack("JC_BIRCH_LOG_3", Material.BIRCH_LOG, "&fTriple Compressed Birch Log", "&f512 Birch Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_LOG_4 = new SlimefunItemStack("JC_BIRCH_LOG_4", Material.BIRCH_LOG, "&fQuadruple Compressed Birch Log", "&f4096 Birch Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_LOG_5 = new SlimefunItemStack("JC_BIRCH_LOG_5", Material.BIRCH_LOG, "&fQuintuple Compressed Birch Log", "&f32768 Birch Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_LOG_6 = new SlimefunItemStack("JC_BIRCH_LOG_6", Material.BIRCH_LOG, "&fSextuple Compressed Birch Log", "&f262144 Birch Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_SPRUCE_LOG_1 = new SlimefunItemStack("JC_SPRUCE_LOG_1", Material.SPRUCE_LOG, "&fCompressed Spruce Log", "&f8 Spruce Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_LOG_2 = new SlimefunItemStack("JC_SPRUCE_LOG_2", Material.SPRUCE_LOG, "&Double Compressed Spruce Log", "&f64 Spruce Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_LOG_3 = new SlimefunItemStack("JC_SPRUCE_LOG_3", Material.SPRUCE_LOG, "&fTriple Compressed Spruce Log", "&f512 Spruce Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_LOG_4 = new SlimefunItemStack("JC_SPRUCE_LOG_4", Material.SPRUCE_LOG, "&fQuadruple Compressed Spruce Log", "&f4096 Spruce Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_LOG_5 = new SlimefunItemStack("JC_SPRUCE_LOG_5", Material.SPRUCE_LOG, "&fQuintuple Compressed Spruce Log", "&f32768 Spruce Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_LOG_6 = new SlimefunItemStack("JC_SPRUCE_LOG_6", Material.SPRUCE_LOG, "&fSextuple Compressed Spruce Log", "&f262144 Spruce Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_1 = new SlimefunItemStack("JC_DARK_OAK_LOG_1", Material.DARK_OAK_LOG, "&fCompressed Dark Oak Log", "&f8 Dark oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_2 = new SlimefunItemStack("JC_DARK_OAK_LOG_2", Material.DARK_OAK_LOG, "&Double Compressed Dark Oak Log", "&f64 Dark oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_3 = new SlimefunItemStack("JC_DARK_OAK_LOG_3", Material.DARK_OAK_LOG, "&fTriple Compressed Dark Oak Log", "&f512 Dark oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_4 = new SlimefunItemStack("JC_DARK_OAK_LOG_4", Material.DARK_OAK_LOG, "&fQuadruple Compressed Dark Oak Log", "&f4096 Dark oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_5 = new SlimefunItemStack("JC_DARK_OAK_LOG_5", Material.DARK_OAK_LOG, "&fQuintuple Compressed Dark Oak Log", "&f32768 Dark oak Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_LOG_6 = new SlimefunItemStack("JC_DARK_OAK_LOG_6", Material.DARK_OAK_LOG, "&fSextuple Compressed Dark Oak Log", "&f262144 Dark oak Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_JUNGLE_LOG_1 = new SlimefunItemStack("JC_JUNGLE_LOG_1", Material.JUNGLE_LOG, "&fCompressed Jungle Log", "&f8 Jungle Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_LOG_2 = new SlimefunItemStack("JC_JUNGLE_LOG_2", Material.JUNGLE_LOG, "&Double Compressed Jungle Log", "&f64 Jungle Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_LOG_3 = new SlimefunItemStack("JC_JUNGLE_LOG_3", Material.JUNGLE_LOG, "&fTriple Compressed Jungle Log", "&f512 Jungle Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_LOG_4 = new SlimefunItemStack("JC_JUNGLE_LOG_4", Material.JUNGLE_LOG, "&fQuadruple Compressed Jungle Log", "&f4096 Jungle Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_LOG_5 = new SlimefunItemStack("JC_JUNGLE_LOG_5", Material.JUNGLE_LOG, "&fQuintuple Compressed Jungle Log", "&f32768 Jungle Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_LOG_6 = new SlimefunItemStack("JC_JUNGLE_LOG_6", Material.JUNGLE_LOG, "&fSextuple Compressed Jungle Log", "&f262144 Jungle Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_ACACIA_LOG_1 = new SlimefunItemStack("JC_ACACIA_LOG_1", Material.ACACIA_LOG, "&fCompressed Acacia Log", "&f8 Acacia Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_LOG_2 = new SlimefunItemStack("JC_ACACIA_LOG_2", Material.ACACIA_LOG, "&Double Compressed Acacia Log", "&f64 Acacia Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_LOG_3 = new SlimefunItemStack("JC_ACACIA_LOG_3", Material.ACACIA_LOG, "&fTriple Compressed Acacia Log", "&f512 Acacia Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_LOG_4 = new SlimefunItemStack("JC_ACACIA_LOG_4", Material.ACACIA_LOG, "&fQuadruple Compressed Acacia Log", "&f4096 Acacia Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_LOG_5 = new SlimefunItemStack("JC_ACACIA_LOG_5", Material.ACACIA_LOG, "&fQuintuple Compressed Acacia Log", "&f32768 Acacia Log", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_LOG_6 = new SlimefunItemStack("JC_ACACIA_LOG_6", Material.ACACIA_LOG, "&fSextuple Compressed Acacia Log", "&f262144 Acacia Log", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_OAK_PLANKS_1 = new SlimefunItemStack("JC_OAK_PLANKS_1", Material.OAK_PLANKS, "&fCompressed Oak Planks", "&f8 Oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_PLANKS_2 = new SlimefunItemStack("JC_OAK_PLANKS_2", Material.OAK_PLANKS, "&Double Compressed Oak Planks", "&f64 Oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_PLANKS_3 = new SlimefunItemStack("JC_OAK_PLANKS_3", Material.OAK_PLANKS, "&fTriple Compressed Oak Planks", "&f512 Oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_PLANKS_4 = new SlimefunItemStack("JC_OAK_PLANKS_4", Material.OAK_PLANKS, "&fQuadruple Compressed Oak Planks", "&f4096 Oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_PLANKS_5 = new SlimefunItemStack("JC_OAK_PLANKS_5", Material.OAK_PLANKS, "&fQuintuple Compressed Oak Planks", "&f32768 Oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_OAK_PLANKS_6 = new SlimefunItemStack("JC_OAK_PLANKS_6", Material.OAK_PLANKS, "&fSextuple Compressed Oak Planks", "&f262144 Oak Planks", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_1 = new SlimefunItemStack("JC_BIRCH_PLANKS_1", Material.BIRCH_PLANKS, "&fCompressed Birch Planks", "&f8 Birch Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_2 = new SlimefunItemStack("JC_BIRCH_PLANKS_2", Material.BIRCH_PLANKS, "&Double Compressed Birch Planks", "&f64 Birch Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_3 = new SlimefunItemStack("JC_BIRCH_PLANKS_3", Material.BIRCH_PLANKS, "&fTriple Compressed Birch Planks", "&f512 Birch Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_4 = new SlimefunItemStack("JC_BIRCH_PLANKS_4", Material.BIRCH_PLANKS, "&fQuadruple Compressed Birch Planks", "&f4096 Birch Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_5 = new SlimefunItemStack("JC_BIRCH_PLANKS_5", Material.BIRCH_PLANKS, "&fQuintuple Compressed Birch Planks", "&f32768 Birch Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_BIRCH_PLANKS_6 = new SlimefunItemStack("JC_BIRCH_PLANKS_6", Material.BIRCH_PLANKS, "&fSextuple Compressed Birch Planks", "&f262144 Birch Planks", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_1 = new SlimefunItemStack("JC_SPRUCE_PLANKS_1", Material.SPRUCE_PLANKS, "&fCompressed Spruce Planks", "&f8 Spruce Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_2 = new SlimefunItemStack("JC_SPRUCE_PLANKS_2", Material.SPRUCE_PLANKS, "&Double Compressed Spruce Planks", "&f64 Spruce Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_3 = new SlimefunItemStack("JC_SPRUCE_PLANKS_3", Material.SPRUCE_PLANKS, "&fTriple Compressed Spruce Planks", "&f512 Spruce Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_4 = new SlimefunItemStack("JC_SPRUCE_PLANKS_4", Material.SPRUCE_PLANKS, "&fQuadruple Compressed Spruce Planks", "&f4096 Spruce Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_5 = new SlimefunItemStack("JC_SPRUCE_PLANKS_5", Material.SPRUCE_PLANKS, "&fQuintuple Compressed Spruce Planks", "&f32768 Spruce Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_SPRUCE_PLANKS_6 = new SlimefunItemStack("JC_SPRUCE_PLANKS_6", Material.SPRUCE_PLANKS, "&fSextuple Compressed Spruce Planks", "&f262144 Spruce Planks", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_1 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_1", Material.DARK_OAK_PLANKS, "&fCompressed Dark Oak Planks", "&f8 Dark oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_2 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_2", Material.DARK_OAK_PLANKS, "&Double Compressed Dark Oak Planks", "&f64 Dark oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_3 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_3", Material.DARK_OAK_PLANKS, "&fTriple Compressed Dark Oak Planks", "&f512 Dark oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_4 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_4", Material.DARK_OAK_PLANKS, "&fQuadruple Compressed Dark Oak Planks", "&f4096 Dark oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_5 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_5", Material.DARK_OAK_PLANKS, "&fQuintuple Compressed Dark Oak Planks", "&f32768 Dark oak Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_DARK_OAK_PLANKS_6 = new SlimefunItemStack("JC_DARK_OAK_PLANKS_6", Material.DARK_OAK_PLANKS, "&fSextuple Compressed Dark Oak Planks", "&f262144 Dark oak Planks", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_1 = new SlimefunItemStack("JC_JUNGLE_PLANKS_1", Material.JUNGLE_PLANKS, "&fCompressed Jungle Planks", "&f8 Jungle Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_2 = new SlimefunItemStack("JC_JUNGLE_PLANKS_2", Material.JUNGLE_PLANKS, "&Double Compressed Jungle Planks", "&f64 Jungle Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_3 = new SlimefunItemStack("JC_JUNGLE_PLANKS_3", Material.JUNGLE_PLANKS, "&fTriple Compressed Jungle Planks", "&f512 Jungle Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_4 = new SlimefunItemStack("JC_JUNGLE_PLANKS_4", Material.JUNGLE_PLANKS, "&fQuadruple Compressed Jungle Planks", "&f4096 Jungle Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_5 = new SlimefunItemStack("JC_JUNGLE_PLANKS_5", Material.JUNGLE_PLANKS, "&fQuintuple Compressed Jungle Planks", "&f32768 Jungle Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_JUNGLE_PLANKS_6 = new SlimefunItemStack("JC_JUNGLE_PLANKS_6", Material.JUNGLE_PLANKS, "&fSextuple Compressed Jungle Planks", "&f262144 Jungle Planks", "&fCompressionCraft");
+
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_1 = new SlimefunItemStack("JC_ACACIA_PLANKS_1", Material.ACACIA_PLANKS, "&fCompressed Acacia Planks", "&f8 Acacia Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_2 = new SlimefunItemStack("JC_ACACIA_PLANKS_2", Material.ACACIA_PLANKS, "&Double Compressed Acacia Planks", "&f64 Acacia Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_3 = new SlimefunItemStack("JC_ACACIA_PLANKS_3", Material.ACACIA_PLANKS, "&fTriple Compressed Acacia Planks", "&f512 Acacia Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_4 = new SlimefunItemStack("JC_ACACIA_PLANKS_4", Material.ACACIA_PLANKS, "&fQuadruple Compressed Acacia Planks", "&f4096 Acacia Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_5 = new SlimefunItemStack("JC_ACACIA_PLANKS_5", Material.ACACIA_PLANKS, "&fQuintuple Compressed Acacia Planks", "&f32768 Acacia Planks", "&fCompressionCraft");
+    public static final SlimefunItemStack JC_ACACIA_PLANKS_6 = new SlimefunItemStack("JC_ACACIA_PLANKS_6", Material.ACACIA_PLANKS, "&fSextuple Compressed Acacia Planks", "&f262144 Acacia Planks", "&fCompressionCraft");
     //Item Groups
     public static final NestedItemGroup JC_CC_GENERAL = new NestedItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_GENERAL"), new CustomItemStack(Material.PISTON, "&bCompressionCraft"));
     public static final SubItemGroup JC_CC_ITEM_COMPRESSION = new SubItemGroup(new NamespacedKey(CompressionCraft.getInstance(), "JC_CC_ITEM_COMPRESSION"), JC_CC_GENERAL, new CustomItemStack(Material.PISTON, "&bCompressed Items"));
